@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Feedback: stacked toasts + SweetAlert-style dialogs (panel, chat, site)
+   ========================================================================== */
+.toast-host { position: fixed; inset-inline: 0; top: max(14px, env(safe-area-inset-top)); display: flex; flex-direction: column; align-items: center; gap: 8px; pointer-events: none; z-index: 400; padding: 0 12px; }
+.toast { --tc: var(--accent-2); --tc-soft: var(--accent-soft); position: relative; display: flex; align-items: center; gap: 10px; min-width: 240px; max-width: min(440px, 100%);
+  padding: 10px 10px 10px 12px; padding-inline-start: 10px; border-radius: 16px; overflow: hidden; pointer-events: auto;
+  background: linear-gradient(180deg, rgba(43, 32, 74, .96), rgba(30, 22, 52, .96)); color: var(--ink); font-size: 14px; font-weight: 600; line-height: 1.6;
+  box-shadow: 0 16px 40px -12px rgba(5, 2, 12, .75), 0 0 0 1px rgba(196, 181, 253, .14), inset 0 1px 0 rgba(221, 214, 254, .07);
+  -webkit-backdrop-filter: blur(14px) saturate(1.3); backdrop-filter: blur(14px) saturate(1.3); }
+.toast.t-error { --tc: var(--toxic); --tc-soft: var(--toxic-soft); }
+.toast.t-warn { --tc: var(--suspect); --tc-soft: var(--suspect-soft); }
+.toast.t-info { --tc: var(--accent-2); }
+.toast-ic { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 10px; background: var(--tc-soft); color: var(--tc); flex-shrink: 0; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--tc) 30%, transparent); }
+.toast-ic svg.ic { width: 15px; height: 15px; stroke-width: 2.6; }
+.toast-text { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.toast-act { flex-shrink: 0; padding: 5px 12px; border-radius: 999px; font-size: 13px; font-weight: 800; color: var(--btn-ink); background: var(--btn-bg); transition: background-color .18s ease, transform .18s var(--ease-out); }
+.toast-act:hover { background: var(--btn-bg-hover); }
+.toast-act:active { transform: scale(.94); }
+.toast-x { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 8px; color: var(--ink-3); flex-shrink: 0; transition: background-color .15s ease, color .15s ease; }
+.toast-x:hover { background: var(--hover); color: var(--ink); }
+.toast-x svg.ic { width: 14px; height: 14px; }
+.toast-bar { position: absolute; inset-inline: 0; bottom: 0; height: 2px; background: var(--tc); opacity: .55; transform-origin: right center; animation: toast-life linear both; }
+@keyframes toast-life { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+
+/* SweetAlert-style dialog */
+.swal { position: fixed; inset: 0; z-index: 500; display: grid; place-items: center; padding: 20px; background: rgba(9, 5, 20, .58); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+.swal-card { --sc: var(--suspect); --sc-soft: var(--suspect-soft); position: relative; width: 100%; max-width: 400px; padding: 30px 26px 22px; border-radius: 26px; text-align: center; overflow: hidden;
+  background: linear-gradient(180deg, #241a3f 0%, #1a1330 100%);
+  box-shadow: 0 30px 80px -20px rgba(5, 2, 12, .9), 0 0 0 1px rgba(196, 181, 253, .14), inset 0 1px 0 rgba(221, 214, 254, .08); }
+.swal-card.s-danger { --sc: var(--toxic); --sc-soft: var(--toxic-soft); }
+.swal-card.s-success { --sc: var(--safe); --sc-soft: var(--safe-soft); }
+.swal-card.s-info, .swal-card.s-question { --sc: var(--accent-2); --sc-soft: var(--accent-soft); }
+.swal-glow { position: absolute; inset: -40% -20% auto; height: 260px; background: radial-gradient(closest-side, color-mix(in srgb, var(--sc) 22%, transparent), transparent); pointer-events: none; animation: swal-breathe 3.2s ease-in-out infinite; }
+@keyframes swal-breathe { 0%, 100% { opacity: .7; transform: scale(1); } 50% { opacity: 1; transform: scale(1.06); } }
+.swal-icon { position: relative; width: 84px; height: 84px; margin: 0 auto 16px; border-radius: 50%; background: var(--sc-soft); }
+.swal-icon svg { width: 100%; height: 100%; fill: none; stroke-linecap: round; stroke-linejoin: round; overflow: visible; }
+.sw-track { stroke: color-mix(in srgb, var(--sc) 18%, transparent); stroke-width: 3; }
+.sw-ring { stroke: var(--sc); stroke-width: 3.5; }
+.sw-glyph path { stroke: var(--sc); stroke-width: 5; }
+.swal-title { position: relative; margin: 0; font-size: 20px; font-weight: 800; line-height: 1.5; color: var(--ink); }
+.swal-text { position: relative; margin: 8px 0 0; font-size: 15px; line-height: 1.8; color: var(--ink-2); }
+.swal-btns { position: relative; display: flex; gap: 10px; margin-top: 24px; }
+.swal-btns button { flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 46px; padding: 0 18px; border-radius: 14px; font-size: 15px; font-weight: 700; transition: background-color .18s ease, box-shadow .18s ease, color .18s ease; }
+.swal-btns svg.ic { width: 17px; height: 17px; }
+.swal-ok { background: var(--btn-bg); color: var(--btn-ink); box-shadow: 0 8px 24px -10px rgba(196, 181, 253, .6); }
+.swal-ok:hover { background: var(--btn-bg-hover); }
+.swal-ok.danger { background: var(--toxic); color: #fff; box-shadow: 0 8px 24px -10px color-mix(in srgb, var(--toxic) 80%, transparent); }
+.swal-ok.danger:hover { background: color-mix(in srgb, var(--toxic) 85%, #fff); }
+.swal-cancel { color: var(--ink-2); background: var(--hover); box-shadow: inset 0 0 0 1px var(--line-2); }
+.swal-cancel:hover { background: var(--active); color: var(--ink); }
+.swal-btns button:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 3px; }
+
+@media (max-width: 480px) {
+  .toast { min-width: 0; width: 100%; }
+  .swal-card { padding: 26px 18px 18px; border-radius: 22px; }
+  .swal-btns { flex-direction: column-reverse; }
+}

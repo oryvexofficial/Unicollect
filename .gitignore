@@ -1,0 +1,10 @@
+web/node_modules/
+web/.ssr/
+models/
+__pycache__/
+*.pyc
+.pytest_cache/
+server.log
+tunnel.log
+cloudflared
+legacy/porstime/instance/*.db

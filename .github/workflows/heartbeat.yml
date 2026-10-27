@@ -1,0 +1,120 @@
+name: Unicollect Heartbeat
+
+# Safety net for deploy.yml. Deploy runs chain themselves (each starts its
+# successor before the 6h limit), so in the normal case this does nothing.
+# It steps in when the chain breaks:
+#   * a deploy failed / was cancelled / timed out  -> start a new one, with
+#     exponential back-off (2, 4, 8, 16, 30 min) so a broken commit can't loop
+#     hundreds of runs an hour;
+#   * no deploy active at all                       -> start one now;
+#   * the active deploy is past its shift           -> start the successor;
+#   * a deploy has sat "queued" for 20+ minutes     -> cancel it, start fresh.
+
+on:
+  workflow_run:
+    workflows: ["Unicollect Ensemble Web + Cloudflare Tunnel"]
+    types: [completed]
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: unicollect-heartbeat
+  cancel-in-progress: false
+
+jobs:
+  restart:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check and restart Unicollect
+        env:
+          # GITHUB_TOKEN may dispatch workflow_dispatch runs; a PAT is optional.
+          GH_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
+          GH_REPO: ${{ github.repository }}
+          REF: ${{ github.event.repository.default_branch || 'main' }}
+          EVENT_NAME: ${{ github.event_name }}
+          RUN_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+        run: |
+          set -euo pipefail
+          WF="deploy.yml"
+          SHIFT_MIN=300        # a healthy run hands off by ~290 min
+          now=$(date +%s)
+          mins_since() { echo $(( (now - $(date -d "$1" +%s)) / 60 )); }
+
+          echo "Trigger: ${EVENT_NAME} ${RUN_CONCLUSION:-}"
+          runs=$(gh run list --repo "$GH_REPO" --workflow "$WF" --limit 30 \
+                   --json databaseId,status,conclusion,createdAt,updatedAt,event)
+
+          active=$(echo "$runs" | jq '[.[] | select(.status != "completed")]')
+          n_active=$(echo "$active" | jq 'length')
+
+          dispatch() {
+            local why="$1" before after
+            before=$(gh run list --repo "$GH_REPO" --workflow "$WF" --limit 30 --json databaseId --jq 'length')
+            for try in 1 2 3; do
+              echo "Starting deploy (${why}), attempt ${try}"
+              if gh workflow run "$WF" --repo "$GH_REPO" --ref "$REF" -f reason="heartbeat: ${why}"; then
+                for _ in $(seq 1 12); do
+                  sleep 5
+                  newest=$(gh run list --repo "$GH_REPO" --workflow "$WF" --limit 1 --json createdAt --jq '.[0].createdAt')
+                  if [ -n "$newest" ] && [ "$(date -d "$newest" +%s)" -ge "$((now - 5))" ]; then
+                    echo "Confirmed: new deploy run queued."; return 0
+                  fi
+                done
+                echo "::warning::dispatch accepted but no new run seen yet"
+                return 0
+              fi
+              sleep $((try * 10))
+            done
+            echo "::error::Could not start ${WF}. Check Settings -> Actions -> General -> Workflow permissions (Read and write)."
+            return 1
+          }
+
+          # ---- something is running ----------------------------------------
+          if [ "$n_active" != "0" ]; then
+            stuck=$(echo "$active" | jq -r --argjson now "$now" \
+              '[.[] | select(.status == "queued" or .status == "waiting" or .status == "pending")
+                    | select(($now - (.createdAt | fromdateiso8601)) > 1200) | .databaseId] | .[]')
+            for id in $stuck; do
+              echo "Run $id has been queued for 20+ min; cancelling it."
+              gh run cancel "$id" --repo "$GH_REPO" || true
+            done
+            healthy=$(echo "$active" | jq -r --argjson now "$now" --argjson shift "$SHIFT_MIN" \
+              '[.[] | select(.status == "in_progress") | select(($now - (.createdAt | fromdateiso8601)) / 60 < $shift)] | length')
+            fresh_queued=$(echo "$active" | jq -r --argjson now "$now" \
+              '[.[] | select(.status != "in_progress") | select(($now - (.createdAt | fromdateiso8601)) <= 1200)] | length')
+            if [ "$healthy" != "0" ] || [ "$fresh_queued" != "0" ]; then
+              echo "A deploy is active and within its shift. Nothing to do."
+              exit 0
+            fi
+            echo "Active deploys are all past their shift; starting the successor."
+            dispatch "successor"
+            exit $?
+          fi
+
+          # ---- nothing running: restart, backing off after repeated failures
+          fails=$(echo "$runs" | jq '[.[] | select(.status == "completed")] |
+                    (map(.conclusion == "success") | index(true)) // length')
+          last_end=$(echo "$runs" | jq -r '[.[] | select(.status == "completed")][0].updatedAt // empty')
+          since=999
+          [ -n "$last_end" ] && since=$(mins_since "$last_end")
+          case "$fails" in
+            0) backoff=0 ;; 1) backoff=2 ;; 2) backoff=4 ;; 3) backoff=8 ;; 4) backoff=16 ;; *) backoff=30 ;;
+          esac
+          echo "No active deploy. Consecutive failures: ${fails}, last ended ${since} min ago, back-off ${backoff} min."
+          if [ "$since" -lt "$backoff" ]; then
+            wait_s=$(( (backoff - since) * 60 ))
+            if [ "$wait_s" -le 360 ]; then
+              echo "Waiting ${wait_s}s before restarting..."
+              sleep "$wait_s"
+            else
+              echo "Backing off; the next heartbeat will retry."
+              exit 0
+            fi
+          fi
+          dispatch "restart after ${fails} failure(s)"

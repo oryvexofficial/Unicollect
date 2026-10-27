@@ -1,0 +1,312 @@
+name: Unicollect Ensemble Web + Cloudflare Tunnel
+
+# One run = one ~5.5 hour shift of the Guard service.
+#
+# 24/7 without gaps:
+#   * every run starts its own successor at HANDOFF_MIN, keeps serving until the
+#     successor has published its link ("online"), then retires (self-chaining,
+#     no dependence on cron);
+#   * a run that sees a newer run online retires early (pushes, manual runs);
+#   * heartbeat.yml restarts the chain after any failure, with back-off.
+#
+# Self-healing inside a run (the "model died" case):
+#   * model server boot is retried (scripts/guard_ctl.sh boot);
+#   * the keep-alive loop restarts gunicorn when it dies OR stops answering
+#     /health with "ok", and restarts the tunnel when the public URL dies.
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Why this run was started (manual, handoff, heartbeat)"
+        required: false
+        default: manual
+  push:
+    branches: [main]
+    paths-ignore:
+      - "**.md"
+      - "legacy/**"
+
+permissions:
+  contents: write   # publish the status page to gh-pages
+  actions: write    # start the successor run / re-enable the heartbeat
+
+env:
+  PERSIAN_MODEL_ID:      HamidRezaei/Persian-Offensive-Language-Detection
+  TEXTDETOX_LARGE_ID:    textdetox/twitter-xlmr-toxicity-classifier
+  TEXTDETOX_BASE_ID:     textdetox/xlmr-base-toxicity-classifier
+  MULTILINGUAL_MODEL_ID: unitary/multilingual-toxic-xlm-roberta
+  TWITTER_OFFENSIVE_ID:  cardiffnlp/twitter-roberta-base-offensive
+
+  MODELS_ROOT: ${{ github.workspace }}/models
+
+  # Guard API settings (see README -> API). Leave GUARD_API_KEYS empty for an
+  # open API, or set the repo secret GUARD_API_KEYS="key1,key2" to require keys.
+  GUARD_RATE_LIMIT: "120"
+  GUARD_API_KEYS: ${{ secrets.GUARD_API_KEYS }}
+  GUARD_ADMIN_KEY: ${{ secrets.GUARD_ADMIN_KEY }}
+
+  OMP_NUM_THREADS: "1"
+  MKL_NUM_THREADS: "1"
+  OPENBLAS_NUM_THREADS: "1"
+  NUMEXPR_NUM_THREADS: "1"
+  TOKENIZERS_PARALLELISM: "false"
+  MODEL_LOAD_RETRIES: "2"
+
+  # shift timing (minutes since the job started). Job timeout is 355.
+  HANDOFF_MIN: "290"     # start the successor
+  HARD_STOP_MIN: "345"   # stop serving no matter what (before the timeout kills us)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+
+    steps:
+      - name: Mark job start
+        run: echo "JOB_T0=$(date +%s)" >> "$GITHUB_ENV"
+
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Keep the heartbeat enabled
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # scheduled workflows are auto-disabled after 60 days without commits;
+        # every shift switches it back on.
+        run: gh workflow enable heartbeat.yml --repo "$GITHUB_REPOSITORY" || true
+
+      - name: Status page -> "starting"
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          owner="${GITHUB_REPOSITORY_OWNER,,}"; repo="${GITHUB_REPOSITORY#*/}"
+          if [ "${repo,,}" = "${owner}.github.io" ]; then PAGE="https://${owner}.github.io/"; else PAGE="https://${owner}.github.io/${repo}/"; fi
+          echo "PAGES_URL=$PAGE" >> "$GITHUB_ENV"
+          echo "Status page: $PAGE"
+          echo "Status page (shows the TryCloudflare link): $PAGE" >> "$GITHUB_STEP_SUMMARY"
+          echo "Started because: ${{ github.event.inputs.reason || github.event_name }}" >> "$GITHUB_STEP_SUMMARY"
+          bash scripts/publish_status.sh starting || echo "::warning::status page not updated (enable Pages -> gh-pages branch)"
+
+      # Tests report problems loudly but never keep the service offline:
+      # a red test is a bug to fix, not a reason for 24/7 downtime.
+      - name: Unit tests (no models needed)
+        id: tests
+        continue-on-error: true
+        run: |
+          pip install --quiet -r requirements-dev.txt
+          GUARD_DEMO_MODE=1 python -m pytest -q || { echo "::error::unit tests failed (deploy continues)"; exit 1; }
+
+      - name: Setup Node (front-end build)
+        uses: actions/setup-node@v5
+        continue-on-error: true
+        with:
+          node-version: "22"
+
+      - name: Build React front-end (panel, chat, site)
+        continue-on-error: true
+        working-directory: web
+        run: |
+          npm install --no-audit --no-fund --loglevel=error
+          npm run build
+          echo "front-end rebuilt from web/src" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          bash scripts/guard_ctl.sh retry 3 pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+          bash scripts/guard_ctl.sh retry 3 pip install --quiet -r requirements.txt
+
+      - name: Restore model cache
+        id: models-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: models
+          key: guard-models-v1-${{ env.PERSIAN_MODEL_ID }}-${{ env.TEXTDETOX_LARGE_ID }}-${{ env.TEXTDETOX_BASE_ID }}-${{ env.MULTILINGUAL_MODEL_ID }}-${{ env.TWITTER_OFFENSIVE_ID }}
+
+      - name: Download all models to local folders
+        run: |
+          mkdir -p "$MODELS_ROOT"
+          python - <<'PY'
+          import os, time
+          from huggingface_hub import snapshot_download
+          jobs = [
+              ("PERSIAN_MODEL_ID",      "persian"),
+              ("TEXTDETOX_LARGE_ID",    "textdetox_large"),
+              ("TEXTDETOX_BASE_ID",     "textdetox_base"),
+              ("MULTILINGUAL_MODEL_ID", "multilingual"),
+              ("TWITTER_OFFENSIVE_ID",  "twitter_offensive"),
+          ]
+          root = os.environ["MODELS_ROOT"]
+          failed = []
+          for env_key, sub in jobs:
+              repo_id = os.environ[env_key]
+              target = os.path.join(root, sub)
+              for attempt in range(1, 5):
+                  try:
+                      print(f"\nDownloading {repo_id} -> {target} (attempt {attempt})", flush=True)
+                      snapshot_download(repo_id=repo_id, local_dir=target,
+                                        ignore_patterns=["*.h5", "*.msgpack", "*.onnx", "*.tflite", "*.ot", "*.mlmodelc"])
+                      print(f"Done {repo_id}", flush=True)
+                      break
+                  except Exception as exc:  # network blips, HF 5xx, rate limits
+                      print(f"::warning::{repo_id} attempt {attempt} failed: {exc}", flush=True)
+                      time.sleep(20 * attempt)
+              else:
+                  failed.append(repo_id)
+          if len(failed) == len(jobs):
+              raise SystemExit("no model could be downloaded")
+          if failed:
+              print(f"::warning::serving without: {failed}", flush=True)
+          PY
+          echo "--- model sizes ---"
+          du -sh "$MODELS_ROOT"/* || true
+
+      - name: Save model cache
+        if: steps.models-cache.outputs.cache-hit != 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: models
+          key: ${{ steps.models-cache.outputs.cache-primary-key }}
+
+      - name: Install cloudflared
+        run: |
+          bash scripts/guard_ctl.sh retry 3 wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
+          chmod +x cloudflared
+          ./cloudflared --version
+
+      - name: Start FastAPI server (preloaded, multi-worker, auto-retry)
+        run: bash scripts/guard_ctl.sh boot 3
+
+      - name: Smoke tests
+        continue-on-error: true
+        run: python scripts/smoke_test.py http://localhost:8000
+
+      - name: Start Cloudflare Quick Tunnel
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          URL="$(bash scripts/guard_ctl.sh retry 3 bash scripts/guard_ctl.sh tunnel | tail -n1)"
+          case "$URL" in https://*) ;; *) echo "Could not obtain the tunnel URL"; cat tunnel.log; exit 1 ;; esac
+          echo "PUBLIC_URL=$URL" >> "$GITHUB_ENV"
+          {
+            echo "### Unicollect Guard is live at: $URL"
+            echo ""
+            echo "| | |"
+            echo "|---|---|"
+            echo "| Web panel | $URL |"
+            echo "| API index | $URL/api/v1 |"
+            echo "| Swagger | $URL/docs |"
+            echo "| ReDoc | $URL/redoc |"
+            echo "| API guide | $URL/api-docs |"
+            [ -n "${PAGES_URL:-}" ] && echo "| Status page | ${PAGES_URL} |"
+            [ -n "${PAGES_URL:-}" ] && echo "| Links JSON | ${PAGES_URL}api/links.json |"
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "$URL"
+          bash scripts/guard_ctl.sh retry 3 bash scripts/publish_status.sh online "$URL" || echo "::warning::status page not updated"
+
+      - name: Keep service alive (watchdog + handoff)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          URL="$PUBLIC_URL"
+          ME="${GITHUB_RUN_NUMBER}"
+          REF="${GITHUB_REF_NAME:-main}"
+          echo "Guard running at: $URL (run $ME)"
+          elapsed_min() { echo $(( ($(date +%s) - JOB_T0) / 60 )); }
+
+          TUNNEL_FAILS=0; HEALTH_FAILS=0; RESTARTS=0; TUNNEL_RESTART_FAILS=0
+          HANDED_OFF=0; SUPERSEDED_AT=0; LAST_PARTIAL_FIX=0; i=0
+          while :; do
+            sleep 60; i=$((i + 1)); E="$(elapsed_min)"
+
+            # ---- shift over? -------------------------------------------------
+            if [ "$E" -ge "$HARD_STOP_MIN" ]; then echo "Hard stop at ${E} min."; break; fi
+
+            # ---- hand the service to a fresh run before the 6h limit ---------
+            if [ "$HANDED_OFF" = "0" ] && [ "$E" -ge "$HANDOFF_MIN" ]; then
+              echo "Starting successor run at ${E} min..."
+              if gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref "$REF" -f reason="handoff from run ${ME}"; then
+                HANDED_OFF=1; echo "Successor requested at ${E} min (run ${ME})." >> "$GITHUB_STEP_SUMMARY"
+              else
+                echo "::warning::could not start successor; heartbeat will cover it"
+              fi
+            fi
+
+            # ---- retire once a newer run is online ---------------------------
+            if [ $((i % 3)) -eq 0 ]; then
+              read -r PUB_RUN PUB_STATUS < <(bash scripts/guard_ctl.sh published-run)
+              if [ "${PUB_RUN:-0}" -gt "$ME" ] && [ "$PUB_STATUS" = "online" ]; then
+                [ "$SUPERSEDED_AT" = "0" ] && SUPERSEDED_AT="$E" && echo "Run ${PUB_RUN} is online; retiring in 3 min."
+              fi
+            fi
+            if [ "$SUPERSEDED_AT" != "0" ] && [ $((E - SUPERSEDED_AT)) -ge 3 ]; then
+              echo "Handed over to a newer run."; echo "Retired: newer run online." >> "$GITHUB_STEP_SUMMARY"; exit 0
+            fi
+
+            # ---- model server watchdog ---------------------------------------
+            if ! pgrep -f "gunicorn app.main:app" >/dev/null || ! bash scripts/guard_ctl.sh ok; then
+              HEALTH_FAILS=$((HEALTH_FAILS + 1))
+              echo "Model server unhealthy (${HEALTH_FAILS}/3): $(bash scripts/guard_ctl.sh health)"
+            else
+              HEALTH_FAILS=0
+              # some models failed to load -> one clean reload every 30 min, twice max
+              ERRS="$(bash scripts/guard_ctl.sh health | python3 -c 'import json,sys; print(len(json.load(sys.stdin).get("errors") or {}))' 2>/dev/null || echo 0)"
+              if [ "${ERRS:-0}" -gt 0 ] && [ "$RESTARTS" -lt 2 ] && [ $((E - LAST_PARTIAL_FIX)) -ge 30 ]; then
+                echo "${ERRS} model(s) failed to load; reloading the model server."
+                LAST_PARTIAL_FIX="$E"; HEALTH_FAILS=3
+              fi
+            fi
+            if ! pgrep -f "gunicorn app.main:app" >/dev/null || [ "$HEALTH_FAILS" -ge 3 ]; then
+              RESTARTS=$((RESTARTS + 1))
+              echo "::warning::restarting the model server (restart #${RESTARTS})"
+              echo "Model server restarted at ${E} min (#${RESTARTS})." >> "$GITHUB_STEP_SUMMARY"
+              bash scripts/guard_ctl.sh stop
+              if ! bash scripts/guard_ctl.sh boot 2; then
+                echo "::error::model server would not come back; ending run so the heartbeat starts a fresh one"
+                exit 1
+              fi
+              HEALTH_FAILS=0
+              [ "$RESTARTS" -ge 6 ] && { echo "::error::too many restarts"; exit 1; }
+            fi
+
+            # ---- tunnel watchdog (public URL, not just the PID) --------------
+            OK=0
+            if pgrep -f "cloudflared tunnel --url http://localhost:8000" >/dev/null; then
+              curl -fs --max-time 15 "$URL/health" >/dev/null 2>&1 && OK=1
+            fi
+            if [ "$OK" = "1" ]; then TUNNEL_FAILS=0; continue; fi
+            TUNNEL_FAILS=$((TUNNEL_FAILS + 1))
+            echo "Tunnel health check failed (${TUNNEL_FAILS}/2)..."
+            [ "$TUNNEL_FAILS" -lt 2 ] && continue
+            TUNNEL_FAILS=0
+            echo "Tunnel unreachable twice in a row, restarting..."
+            NEW="$(bash scripts/guard_ctl.sh tunnel | tail -n1)"
+            case "$NEW" in
+              https://*)
+                URL="$NEW"; TUNNEL_RESTART_FAILS=0
+                echo "Tunnel restarted, new URL: $URL" >> "$GITHUB_STEP_SUMMARY"
+                bash scripts/publish_status.sh online "$URL" || true ;;
+              *)
+                TUNNEL_RESTART_FAILS=$((TUNNEL_RESTART_FAILS + 1))
+                [ "$TUNNEL_RESTART_FAILS" -ge 5 ] && { echo "::error::tunnel will not come back"; exit 1; } ;;
+            esac
+          done
+
+      # Not on cancellation: a newer run may already be publishing its link.
+      # publish_status.sh also refuses to take down a link owned by another run.
+      - name: Status page -> "offline"
+        if: success() || failure()
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/publish_status.sh offline

@@ -1,0 +1,1688 @@
+{
+ "hero": "<header class=\"docs-hero\">\n<span class=\"eyebrow\"><span class=\"bar\"></span>Unicollect Guard API · v1</span>\n<h1>مستندات API</h1>\n<p>هر پاسخ JSON است. همه‌ی مسیرها از هر دامنه‌ای (CORS) قابل فراخوانی‌اند.</p>\n</header>",
+ "links_card": "<section aria-labelledby=\"links-title\" class=\"links-card\" id=\"links\">\n<div class=\"links-top\">\n<h2 id=\"links-title\"><span class=\"dot warn\" data-status-dot=\"\"></span>لینک‌های زنده</h2>\n<span class=\"when\" data-status-when=\"\">در حال دریافت وضعیت…</span>\n</div>\n<div class=\"base-box\">\n<code data-live-text=\"\">https://YOUR-LINK.trycloudflare.com</code>\n<button class=\"btn btn-line btn-sm\" data-copy-live=\"\" type=\"button\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><rect height=\"14\" rx=\"2\" width=\"14\" x=\"8\" y=\"8\"></rect><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"></path></svg><span>کپی</span></button>\n<a aria-disabled=\"true\" class=\"btn btn-ink btn-sm\" data-live=\"panel\" rel=\"noopener\" target=\"_blank\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path></svg><span>باز کردن</span></a>\n</div>\n<div class=\"link-grid\"><a class=\"link-item\" href=\"../chat/\"><span class=\"li-ico\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"></path></svg></span><span><span class=\"li-t\">چت نگهبان (همین سایت)</span><span class=\"li-u\">chat/</span></span></a><a aria-disabled=\"true\" class=\"link-item\" data-live=\"panel\" rel=\"noopener\" target=\"_blank\"><span class=\"li-ico\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><rect height=\"18\" rx=\"3\" width=\"18\" x=\"3\" y=\"3\"></rect><path d=\"M3 9h18M9 21V9\"></path></svg></span><span><span class=\"li-t\">پنل نگهبان متن</span><span class=\"li-u\" data-live-url=\"panel\">YOUR-LINK.trycloudflare.com</span></span></a><a aria-disabled=\"true\" class=\"link-item\" data-live=\"api\" rel=\"noopener\" target=\"_blank\"><span class=\"li-ico\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1M16 21h1a2 2 0 0 0 2-2v-5a2 2 0 0 1 2-2 2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1\"></path></svg></span><span><span class=\"li-t\">فهرست API</span><span class=\"li-u\" data-live-url=\"api\">YOUR-LINK.trycloudflare.com/api/v1</span></span></a><a aria-disabled=\"true\" class=\"link-item\" data-live=\"swagger\" rel=\"noopener\" target=\"_blank\"><span class=\"li-ico\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"m16 18 6-6-6-6M8 6l-6 6 6 6\"></path></svg></span><span><span class=\"li-t\">Swagger (تعاملی)</span><span class=\"li-u\" data-live-url=\"swagger\">YOUR-LINK.trycloudflare.com/docs</span></span></a><a aria-disabled=\"true\" class=\"link-item\" data-live=\"redoc\" rel=\"noopener\" target=\"_blank\"><span class=\"li-ico\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20\"></path></svg></span><span><span class=\"li-t\">ReDoc</span><span class=\"li-u\" data-live-url=\"redoc\">YOUR-LINK.trycloudflare.com/redoc</span></span></a><a aria-disabled=\"true\" class=\"link-item\" data-live=\"openapi\" rel=\"noopener\" target=\"_blank\"><span class=\"li-ico\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1M16 21h1a2 2 0 0 0 2-2v-5a2 2 0 0 1 2-2 2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1\"></path></svg></span><span><span class=\"li-t\">OpenAPI JSON</span><span class=\"li-u\" data-live-url=\"openapi\">YOUR-LINK.trycloudflare.com/openapi.json</span></span></a><a aria-disabled=\"true\" class=\"link-item\" data-live=\"health\" rel=\"noopener\" target=\"_blank\"><span class=\"li-ico\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"M22 12h-4l-3 9L9 3l-3 9H2\"></path></svg></span><span><span class=\"li-t\">سلامت سرویس</span><span class=\"li-u\" data-live-url=\"health\">YOUR-LINK.trycloudflare.com/api/v1/health</span></span></a></div>\n<p class=\"links-note\">لینک با هر اجرای سرویس عوض می‌شود. برنامه‌ات آن را از <a class=\"inline-code\" href=\"links.json\">api/links.json</a> یا <a class=\"inline-code\" href=\"links.txt\">api/links.txt</a> بخواند.</p>\n</section>",
+ "sections": [
+  {
+   "id": "quick",
+   "title": "شروع سریع",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "لینک زنده را بگیر، متن را بفرست، <code>decision</code> را بخوان.",
+     "cls": ""
+    },
+    {
+     "type": "code",
+     "tabs": [
+      {
+       "label": "bash",
+       "text": "# 1) live link\nBASE=$(curl -s https://USER.github.io/REPO/api/links.txt)\n\n# 2) check\ncurl -X POST \"$BASE/api/v1/check\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\":\"salam khoobi\"}'"
+      },
+      {
+       "label": "JavaScript",
+       "text": "const links = await (await fetch(\"https://USER.github.io/REPO/api/links.json\")).json();\nconst r = await fetch(links.base_url + \"/api/v1/check\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({ text: \"salam khoobi\" }),\n});\nconst { decision, confidence } = await r.json();"
+      },
+      {
+       "label": "Python",
+       "text": "import requests\n\nlinks = requests.get(\"https://USER.github.io/REPO/api/links.json\").json()\nr = requests.post(links[\"base_url\"] + \"/api/v1/check\", json={\"text\": \"salam khoobi\"})\nprint(r.json()[\"decision\"])  # SAFE / SUSPECT / TOXIC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "auth",
+   "title": "کلید و محدودیت",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "به‌طور پیش‌فرض باز است. اگر سرور <code>GUARD_API_KEYS</code> داشته باشد، کلید را در هدر بفرست. مسیرهای وضعیت همیشه بازند.",
+     "cls": ""
+    },
+    {
+     "type": "code",
+     "tabs": [
+      {
+       "label": "headers",
+       "text": "X-API-Key: your-key\n# or\nAuthorization: Bearer your-key"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "cls": "dtable",
+     "head": [
+      "محدودیت",
+      "مقدار"
+     ],
+     "rows": [
+      [
+       "درخواست POST در دقیقه برای هر IP",
+       "<code>120</code> (هدرهای <code>X-RateLimit-*</code>)"
+      ],
+      [
+       "طول متن",
+       "<code>20,000</code> نویسه"
+      ],
+      [
+       "متن در هر batch",
+       "<code>32</code>"
+      ],
+      [
+       "جمله در sentences",
+       "<code>40</code>"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "errors",
+   "title": "خطاها",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "همیشه یک شکل، با کد HTTP واقعی.",
+     "cls": ""
+    },
+    {
+     "type": "code",
+     "tabs": [
+      {
+       "label": "JSON",
+       "text": "{\n  \"error\": {\n    \"code\": \"text_too_long\",\n    \"message\": \"'text' has 25000 characters; max is 20000.\",\n    \"status\": 413\n  }\n}"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "cls": "dtable",
+     "head": [
+      "HTTP",
+      "code",
+      "یعنی"
+     ],
+     "rows": [
+      [
+       "<code>400</code>",
+       "<code>empty_text</code> · <code>unknown_model</code> · <code>bad_mode</code>",
+       "ورودی نادرست"
+      ],
+      [
+       "<code>401</code>",
+       "<code>unauthorized</code>",
+       "کلید نیست یا اشتباه است"
+      ],
+      [
+       "<code>404</code>",
+       "<code>not_found</code>",
+       "مسیر وجود ندارد"
+      ],
+      [
+       "<code>413</code>",
+       "<code>text_too_long</code> · <code>batch_too_large</code>",
+       "بیش از حد مجاز"
+      ],
+      [
+       "<code>422</code>",
+       "<code>invalid_body</code>",
+       "JSON ناقص"
+      ],
+      [
+       "<code>429</code>",
+       "<code>rate_limited</code>",
+       "صبر کن؛ <code>Retry-After</code>"
+      ],
+      [
+       "<code>503</code>",
+       "<code>not_ready</code>",
+       "مدل‌ها هنوز بارگذاری می‌شوند"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "clients",
+   "title": "کتابخانه‌ها",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "کتابخانه یا پکیج خاصی لازم نیست؛ فقط یک درخواست HTTP عادی به <code>BASE_URL</code> (لینک زنده از <code>api/links.json</code>) کافی است.",
+     "cls": ""
+    },
+    {
+     "type": "code",
+     "tabs": [
+      {
+       "label": "Python · requests",
+       "text": "import requests\n\nPAGES = \"https://USER.github.io/REPO/api/links.json\"\nBASE = requests.get(PAGES, timeout=10).json()[\"base_url\"]   # the live tunnel link\nHEADERS = {}                                                # {\"X-API-Key\": \"...\"} if the server needs a key\n\n\ndef guard(path, **body):\n    r = requests.post(BASE + \"/api/v1/\" + path, json=body, headers=HEADERS, timeout=60)\n    if r.status_code == 429:                                 # rate limited\n        raise RuntimeError(f\"retry in {{r.headers['Retry-After']}}s\")\n    r.raise_for_status()\n    return r.json()\n\n\nguard(\"check\", text=\"to khar hasti\")[\"decision\"]           # \"TOXIC\"\nguard(\"verdict\", text=\"Have a nice day\")[\"flagged\"]        # False\nguard(\"censor\", text=\"you are a k1r\")[\"text\"]             # \"you are a ***\"\nguard(\"check/batch\", texts=[\"salam\", \"khafe sho\"])[\"summary\"]"
+      },
+      {
+       "label": "JavaScript",
+       "text": "const PAGES = \"https://USER.github.io/REPO/api/links.json\";\nconst { base_url: BASE } = await (await fetch(PAGES)).json();   // the live tunnel link\n\nasync function guard(path, body) {\n  const r = await fetch(`${BASE}/api/v1/${path}`, {\n    method: \"POST\",\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(body),\n  });\n  return r.json();\n}\n\n(await guard(\"check\", { text: \"to khar hasti\" })).decision;   // \"TOXIC\""
+      },
+      {
+       "label": "curl",
+       "text": "# 1) live link\nBASE=$(curl -s https://USER.github.io/REPO/api/links.txt)\n\n# 2) check\ncurl -X POST \"$BASE/api/v1/check\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\":\"salam khoobi\"}'"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "console": "<section class=\"doc-sec\" id=\"console\">\n<h2>کنسول</h2>\n<p>مستقیم روی سرویس زنده اجرا می‌شود. <bdi dir=\"ltr\"><kbd>Ctrl</kbd> + <kbd>Enter</kbd></bdi> می‌فرستد؛ دکمه‌ی curl همین درخواست را کپی می‌کند.</p>\n<div class=\"console\">\n<div class=\"console-row\">\n<select aria-label=\"مسیر\" class=\"field\" data-con-ep=\"\"><option value=\"0\">POST  /api/v1/check</option><option value=\"1\">GET  /api/v1/check?text=…</option><option value=\"2\">POST  /api/v1/check/batch</option><option value=\"3\">POST  /api/v1/verdict</option><option value=\"4\">POST  /api/v1/score</option><option value=\"5\">POST  /api/v1/sentences</option><option value=\"6\">POST  /api/v1/censor</option><option value=\"7\">POST  /api/v1/moderations</option><option value=\"8\">POST  /api/v1/profanity</option><option value=\"9\">POST  /api/v1/language</option><option value=\"10\">POST  /api/v1/fingilish/detect</option><option value=\"11\">POST  /api/v1/fingilish/transliterate</option><option value=\"12\">POST  /api/v1/normalize</option><option value=\"13\">GET  /api/v1</option><option value=\"14\">GET  /api/v1/health</option><option value=\"15\">GET  /api/v1/ready</option><option value=\"16\">GET  /api/v1/info</option><option value=\"17\">GET  /api/v1/models</option><option value=\"18\">GET  /api/v1/config</option><option value=\"19\">GET  /api/v1/stats</option><option value=\"20\">POST  /api/v1/cache/clear</option></select>\n<input aria-label=\"کلید API\" autocomplete=\"off\" class=\"field key\" data-con-key=\"\" placeholder=\"X-API-Key (optional)\" spellcheck=\"false\" type=\"text\"/>\n<button class=\"btn btn-line\" data-con-curl=\"\" title=\"کپی همین درخواست به‌صورت curl\" type=\"button\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"m4 17 6-6-6-6M12 19h8\"></path></svg><span>curl</span></button>\n<button class=\"btn btn-ink\" data-con-send=\"\" type=\"button\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"m22 2-7 20-4-9-9-4Z\"></path><path d=\"M22 2 11 13\"></path></svg><span>ارسال</span></button>\n</div>\n<textarea aria-label=\"بدنه‌ی درخواست\" class=\"field\" data-con-body=\"\" rows=\"5\" spellcheck=\"false\"></textarea>\n<div class=\"resp\" data-con-resp=\"\" hidden=\"\">\n<div class=\"resp-head\"><span class=\"status-code\" data-con-status=\"\"></span><span data-con-time=\"\"></span><span class=\"mono ltr\" data-con-url=\"\"></span></div>\n<div class=\"resp-hdrs\" data-con-headers=\"\"></div>\n<div class=\"code\" style=\"margin-top:10px\"><div class=\"code-bar\"><span aria-selected=\"true\" class=\"tab\">response</span><button class=\"copy\" data-copy-code=\"\" type=\"button\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><rect height=\"14\" rx=\"2\" width=\"14\" x=\"8\" y=\"8\"></rect><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"></path></svg><span>کپی</span></button></div><pre><code data-con-out=\"\"></code></pre></div>\n</div>\n</div>\n</section>",
+ "ep_tools": "<div aria-label=\"کنترل مسیرها\" class=\"ep-tools\" role=\"toolbar\"><span class=\"lbl\">همه‌ی مسیرها <span class=\"mono\" data-ep-count=\"\"></span></span><button class=\"btn btn-line btn-sm\" data-ep-all=\"open\" type=\"button\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"m7 15 5 5 5-5M7 9l5-5 5 5\"></path></svg><span>باز کردن همه</span></button><button class=\"btn btn-line btn-sm\" data-ep-all=\"close\" type=\"button\"><svg aria-hidden=\"true\" class=\"ic\" focusable=\"false\" viewbox=\"0 0 24 24\"><path d=\"m7 20 5-5 5 5M7 4l5 5 5-5\"></path></svg><span>بستن همه</span></button></div>",
+ "groups": [
+  {
+   "id": "g-guard",
+   "title": "بررسی متن۸",
+   "eps": [
+    {
+     "id": "ep-check",
+     "open": true,
+     "method": "POST",
+     "path": "/api/v1/check",
+     "desc": "حکم کامل برای یک متن",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "اصلی‌ترین مسیر. زبان را تشخیص می‌دهد، اگر فینگیلیش باشد نسخه‌ی فارسی را هم بررسی می‌کند و حکم بدتر را برمی‌گرداند.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن (حداکثر ۲۰٬۰۰۰ نویسه)، الزامی"
+        ],
+        [
+         "detailed",
+         "bool = true",
+         "false: فقط حکم، بدون ریزنمره‌ها"
+        ],
+        [
+         "use_cache",
+         "bool = true",
+         "استفاده از نتیجه‌ی متن تکراری"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/check \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"to khar hasti\"}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/check\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"to khar hasti\"}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/check\", json={'text': 'to khar hasti'})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"id\": \"chk_8f2c1a9b0d3e4f51\",\n  \"decision\": \"TOXIC\",\n  \"is_toxic\": true,\n  \"flagged\": true,\n  \"severity\": 2,\n  \"confidence\": 0.9105,\n  \"max_raw\": 0.962,\n  \"votes_count\": 3,\n  \"total_models\": 4,\n  \"script\": \"fa\",\n  \"reason\": \"3 of 4 models voted toxic (threshold 0.50).\",\n  \"top_model\": \"persian\",\n  \"raw_scores\": {\n    \"persian\": 0.962,\n    \"textdetox_lg\": 0.859,\n    \"textdetox_sm\": 0.711,\n    \"multilingual\": 0.204\n  },\n  \"fingilish_detected\": true,\n  \"fingilish_text\": \"تو خر هستی\",\n  \"decided_by\": \"fingilish\",\n  \"profane_terms\": [\n    \"خر\"\n  ],\n  \"cached\": false,\n  \"latency_ms\": 412\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/check",
+        "b": {
+         "text": "to khar hasti"
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-check-get",
+     "open": false,
+     "method": "GET",
+     "path": "/api/v1/check?text=…",
+     "desc": "بررسی سریع با آدرس",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "برای تست در مرورگر یا ابزارهای ساده. پیش‌فرض خروجی خلاصه است؛ <code>&amp;detailed=true</code> برای جزئیات.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "query",
+         "متن، الزامی"
+        ],
+        [
+         "detailed",
+         "query bool = false",
+         "ریزنمره‌ها"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl https://YOUR-LINK.trycloudflare.com/api/v1/check?text=salam%20khoobi"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/check?text=salam%20khoobi\");\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.get(\"https://YOUR-LINK.trycloudflare.com/api/v1/check?text=salam%20khoobi\")\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"decision\": \"SAFE\",\n  \"is_toxic\": false,\n  \"flagged\": false,\n  \"confidence\": 0.031,\n  \"script\": \"en\",\n  \"fingilish_detected\": true,\n  \"fingilish_text\": \"سلام خوبی\",\n  \"latency_ms\": 288\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "GET",
+        "p": "/api/v1/check?text=salam%20khoobi",
+        "b": null
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-batch",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/check/batch",
+     "desc": "بررسی دسته‌ای تا ۳۲ متن",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "هر متن جداگانه حکم می‌گیرد؛ خطای یک متن بقیه را خراب نمی‌کند.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "texts",
+         "string[]",
+         "آرایه‌ی متن‌ها، الزامی"
+        ],
+        [
+         "detailed",
+         "bool = false",
+         "ریزنمره‌ها برای هر متن"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/check/batch \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"texts\": [\"سلام وقت بخیر\", \"You are stupid\", \"kir\"]}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/check/batch\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"texts\": [\"سلام وقت بخیر\", \"You are stupid\", \"kir\"]}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/check/batch\", json={'texts': ['سلام وقت بخیر', 'You are stupid', 'kir']})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"count\": 3,\n  \"summary\": {\n    \"SAFE\": 1,\n    \"SUSPECT\": 0,\n    \"TOXIC\": 2,\n    \"errors\": 0\n  },\n  \"flagged_indexes\": [\n    1,\n    2\n  ],\n  \"results\": [\n    {\n      \"index\": 0,\n      \"decision\": \"SAFE\",\n      \"confidence\": 0.02\n    },\n    {\n      \"index\": 1,\n      \"decision\": \"TOXIC\",\n      \"confidence\": 0.93\n    },\n    {\n      \"index\": 2,\n      \"decision\": \"TOXIC\",\n      \"confidence\": 0.97\n    }\n  ],\n  \"latency_ms\": 1130\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/check/batch",
+        "b": {
+         "texts": [
+          "سلام وقت بخیر",
+          "You are stupid",
+          "kir"
+         ]
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-verdict",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/verdict",
+     "desc": "کوچک‌ترین پاسخ: بفرستم یا نه؟",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "مناسب برای فرم‌ها و کامنت‌ها: فقط حکم و پرچم.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن، الزامی"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/verdict \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"khafe sho ahmagh\"}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/verdict\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"khafe sho ahmagh\"}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/verdict\", json={'text': 'khafe sho ahmagh'})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"decision\": \"TOXIC\",\n  \"flagged\": true,\n  \"is_toxic\": true,\n  \"confidence\": 0.88\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/verdict",
+        "b": {
+         "text": "khafe sho ahmagh"
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-score",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/score",
+     "desc": "نمره‌ی خام هر مدل، بدون رأی‌گیری",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "برای کالیبره کردن یا ساختن منطق تصمیم خودت.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن، الزامی"
+        ],
+        [
+         "models",
+         "string[]?",
+         "زیرمجموعه‌ای از مدل‌ها"
+        ],
+        [
+         "script",
+         "fa | en | mixed ?",
+         "تحمیل زبان"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/score \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"you idiot\", \"models\": [\"textdetox_lg\", \"twitter_off\"]}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/score\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"you idiot\", \"models\": [\"textdetox_lg\", \"twitter_off\"]}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/score\", json={'text': 'you idiot', 'models': ['textdetox_lg', 'twitter_off']})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"script\": \"en\",\n  \"scores\": {\n    \"textdetox_lg\": 0.941,\n    \"twitter_off\": 0.887\n  },\n  \"votes\": {\n    \"textdetox_lg\": true,\n    \"twitter_off\": true\n  },\n  \"skipped_models\": [],\n  \"latency_ms\": 96\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/score",
+        "b": {
+         "text": "you idiot",
+         "models": [
+          "textdetox_lg",
+          "twitter_off"
+         ]
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-sentences",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/sentences",
+     "desc": "حکم جمله‌به‌جمله",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "برای متن‌های بلند: دقیقاً کدام جمله مشکل دارد، با موقعیت شروع و پایان.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن، حداکثر ۴۰ جمله"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/sentences \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"سلام. تو خیلی احمقی! فردا می‌بینمت.\"}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/sentences\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"سلام. تو خیلی احمقی! فردا می‌بینمت.\"}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/sentences\", json={'text': 'سلام. تو خیلی احمقی! فردا می\\u200cبینمت.'})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"decision\": \"TOXIC\",\n  \"count\": 3,\n  \"sentences\": [\n    {\n      \"text\": \"سلام.\",\n      \"start\": 0,\n      \"end\": 5,\n      \"decision\": \"SAFE\"\n    },\n    {\n      \"text\": \"تو خیلی احمقی!\",\n      \"start\": 6,\n      \"end\": 20,\n      \"decision\": \"TOXIC\"\n    },\n    {\n      \"text\": \"فردا می‌بینمت.\",\n      \"start\": 21,\n      \"end\": 35,\n      \"decision\": \"SAFE\"\n    }\n  ],\n  \"latency_ms\": 940\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/sentences",
+        "b": {
+         "text": "سلام. تو خیلی احمقی! فردا می‌بینمت."
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-censor",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/censor",
+     "desc": "سانسور خودکار",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "حالت <code>words</code> فقط واژه‌های توهین‌آمیز شناخته‌شده را می‌پوشاند (فوری). حالت <code>sentences</code> جمله‌های سمی را کامل می‌پوشاند.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن، الزامی"
+        ],
+        [
+         "mode",
+         "words | sentences",
+         "پیش‌فرض words"
+        ],
+        [
+         "char",
+         "string = *",
+         "نویسه‌ی پوشش"
+        ],
+        [
+         "include_contextual",
+         "bool = false",
+         "پوشاندن واژه‌های وابسته به بافت (مثل khar)"
+        ],
+        [
+         "keep_first_letter",
+         "bool = false",
+         "حرف اول بماند"
+        ],
+        [
+         "min_decision",
+         "TOXIC | SUSPECT",
+         "آستانه در حالت sentences"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/censor \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"you are a k1r, have a nice day\"}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/censor\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"you are a k1r, have a nice day\"}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/censor\", json={'text': 'you are a k1r, have a nice day'})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"mode\": \"words\",\n  \"text\": \"you are a ***, have a nice day\",\n  \"masked_count\": 1,\n  \"changed\": true,\n  \"masked\": [\n    {\n      \"token\": \"k1r\",\n      \"start\": 10,\n      \"end\": 13,\n      \"persian\": \"کیر\",\n      \"script\": \"latin\",\n      \"contextual\": false\n    }\n  ]\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/censor",
+        "b": {
+         "text": "you are a k1r, have a nice day"
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-moderations",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/moderations",
+     "desc": "سازگار با OpenAI Moderation",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "همان شکل پاسخ <code>/v1/moderations</code>؛ کد فعلی‌ات فقط با عوض کردن آدرس کار می‌کند.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "input",
+         "string | string[]",
+         "یک یا چند متن"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/moderations \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"input\": [\"You are stupid\", \"hello\"]}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/moderations\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"input\": [\"You are stupid\", \"hello\"]}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/moderations\", json={'input': ['You are stupid', 'hello']})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"id\": \"modr-3b1f…\",\n  \"model\": \"unicollect-guard\",\n  \"results\": [\n    {\n      \"flagged\": true,\n      \"categories\": {\n        \"harassment\": true,\n        \"toxic\": true,\n        \"suspect\": false\n      },\n      \"category_scores\": {\n        \"harassment\": 0.95,\n        \"toxic\": 0.91\n      }\n    },\n    {\n      \"flagged\": false,\n      \"categories\": {\n        \"harassment\": false,\n        \"toxic\": false,\n        \"suspect\": false\n      },\n      \"category_scores\": {\n        \"harassment\": 0.02,\n        \"toxic\": 0.02\n      }\n    }\n  ]\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/moderations",
+        "b": {
+         "input": [
+          "You are stupid",
+          "hello"
+         ]
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-utilities",
+   "title": "ابزارهای متن (بدون مدل، فوری)۵",
+   "eps": [
+    {
+     "id": "ep-profanity",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/profanity",
+     "desc": "واژه‌های توهین‌آمیز با موقعیت",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "فقط واژه‌نامه، بدون مدل؛ حتی وقتی مدل‌ها در حال بارگذاری‌اند جواب می‌دهد.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن، الزامی"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/profanity \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"jakesh, کسکش\"}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/profanity\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"jakesh, کسکش\"}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/profanity\", json={'text': 'jakesh, کسکش'})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"found\": true,\n  \"count\": 2,\n  \"strong_count\": 2,\n  \"terms\": [\n    {\n      \"token\": \"jakesh\",\n      \"start\": 0,\n      \"end\": 6,\n      \"persian\": \"جاکش\",\n      \"script\": \"latin\",\n      \"contextual\": false\n    },\n    {\n      \"token\": \"کسکش\",\n      \"start\": 8,\n      \"end\": 12,\n      \"persian\": \"کسکش\",\n      \"script\": \"persian\",\n      \"contextual\": false\n    }\n  ]\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/profanity",
+        "b": {
+         "text": "jakesh, کسکش"
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-language",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/language",
+     "desc": "تشخیص زبان و خط",
+     "blocks": [
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن، الزامی"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/language \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"salam khoobi\"}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/language\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"salam khoobi\"}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/language\", json={'text': 'salam khoobi'})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"script\": \"en\",\n  \"fingilish\": true,\n  \"language\": \"fingilish\",\n  \"persian_ratio\": 0.0,\n  \"latin_ratio\": 1.0,\n  \"persian_chars\": 0,\n  \"latin_chars\": 11\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/language",
+        "b": {
+         "text": "salam khoobi"
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-fing-detect",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/fingilish/detect",
+     "desc": "این متن فینگیلیش است؟",
+     "blocks": [
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن، الزامی"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/fingilish/detect \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"to khar hasti\"}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/fingilish/detect\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"to khar hasti\"}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/fingilish/detect\", json={'text': 'to khar hasti'})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"fingilish\": true,\n  \"script\": \"en\",\n  \"profane_terms\": [\n    \"خر\"\n  ]\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/fingilish/detect",
+        "b": {
+         "text": "to khar hasti"
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-fing-tr",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/fingilish/transliterate",
+     "desc": "فینگیلیش به فارسی",
+     "blocks": [
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن، الزامی"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/fingilish/transliterate \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"salam khoobi\"}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/fingilish/transliterate\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"salam khoobi\"}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/fingilish/transliterate\", json={'text': 'salam khoobi'})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"input\": \"salam khoobi\",\n  \"persian\": \"سلام خوبی\",\n  \"fingilish\": true,\n  \"script_after\": \"fa\"\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/fingilish/transliterate",
+        "b": {
+         "text": "salam khoobi"
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-normalize",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/normalize",
+     "desc": "باز کردن پنهان‌کاری",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "<code>k1r</code>، <code>k.i.r</code> و <code>kiiiir</code> همه می‌شوند <code>kir</code>.",
+       "cls": ""
+      },
+      {
+       "type": "table",
+       "cls": "params",
+       "head": [
+        "فیلد",
+        "نوع",
+        "توضیح"
+       ],
+       "rows": [
+        [
+         "text",
+         "string",
+         "متن، الزامی"
+        ]
+       ]
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/normalize \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\": \"K.1.R kiiiir\"}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/normalize\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({\"text\": \"K.1.R kiiiir\"}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/normalize\", json={'text': 'K.1.R kiiiir'})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"input\": \"K.1.R kiiiir\",\n  \"normalized\": \"kir kir\",\n  \"changed\": true\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/normalize",
+        "b": {
+         "text": "K.1.R kiiiir"
+        }
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-discovery",
+   "title": "وضعیت و اطلاعات۷",
+   "eps": [
+    {
+     "id": "ep-index",
+     "open": false,
+     "method": "GET",
+     "path": "/api/v1",
+     "desc": "فهرست همه‌ی مسیرها",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "آدرس کامل هر مسیر بر اساس لینک فعلی سرویس.",
+       "cls": ""
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl https://YOUR-LINK.trycloudflare.com/api/v1"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1\");\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.get(\"https://YOUR-LINK.trycloudflare.com/api/v1\")\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"name\": \"Unicollect Guard API\",\n  \"version\": \"2.0.0\",\n  \"base_url\": \"https://YOUR-LINK.trycloudflare.com\",\n  \"auth_required\": false,\n  \"docs\": {\n    \"swagger\": \"https://YOUR-LINK.trycloudflare.com/docs\",\n    \"redoc\": \"https://YOUR-LINK.trycloudflare.com/redoc\"\n  },\n  \"endpoints\": [\n    \"…22 items\"\n  ]\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "GET",
+        "p": "/api/v1",
+        "b": null
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-health",
+     "open": false,
+     "method": "GET",
+     "path": "/api/v1/health",
+     "desc": "سلامت و بار سرور",
+     "blocks": [
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl https://YOUR-LINK.trycloudflare.com/api/v1/health"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/health\");\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.get(\"https://YOUR-LINK.trycloudflare.com/api/v1/health\")\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"status\": \"ok\",\n  \"mode\": \"production\",\n  \"version\": \"2.0.0\",\n  \"loaded_count\": 5,\n  \"total_models\": 5,\n  \"errors\": {},\n  \"inflight\": 0,\n  \"peak\": 3,\n  \"uptime_s\": 5120\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "GET",
+        "p": "/api/v1/health",
+        "b": null
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-ready",
+     "open": false,
+     "method": "GET",
+     "path": "/api/v1/ready",
+     "desc": "آماده است؟ (۲۰۰ یا ۵۰۳)",
+     "blocks": [
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl https://YOUR-LINK.trycloudflare.com/api/v1/ready"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/ready\");\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.get(\"https://YOUR-LINK.trycloudflare.com/api/v1/ready\")\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"ready\": true\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "GET",
+        "p": "/api/v1/ready",
+        "b": null
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-info",
+     "open": false,
+     "method": "GET",
+     "path": "/api/v1/info",
+     "desc": "اطلاعات سرویس و محدودیت‌ها",
+     "blocks": [
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl https://YOUR-LINK.trycloudflare.com/api/v1/info"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/info\");\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.get(\"https://YOUR-LINK.trycloudflare.com/api/v1/info\")\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"name\": \"Unicollect Guard\",\n  \"version\": \"2.0.0\",\n  \"languages\": [\n    \"fa\",\n    \"fingilish\",\n    \"en\",\n    \"mixed\"\n  ],\n  \"limits\": {\n    \"max_text_length\": 20000,\n    \"max_batch_items\": 32,\n    \"max_sentences\": 40,\n    \"rate_limit_per_minute\": 120\n  },\n  \"auth_required\": false\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "GET",
+        "p": "/api/v1/info",
+        "b": null
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-models",
+     "open": false,
+     "method": "GET",
+     "path": "/api/v1/models",
+     "desc": "پنج مدل و وضعیتشان",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "هر مدل جداگانه هم هست: <code>/api/v1/models/persian</code>",
+       "cls": ""
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl https://YOUR-LINK.trycloudflare.com/api/v1/models"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/models\");\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.get(\"https://YOUR-LINK.trycloudflare.com/api/v1/models\")\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"loaded\": 5,\n  \"total\": 5,\n  \"models\": [\n    {\n      \"id\": \"persian\",\n      \"label_en\": \"Unicollect Persian\",\n      \"language\": \"fa\",\n      \"weight\": 2.0,\n      \"loaded\": true\n    },\n    \"…\"\n  ]\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "GET",
+        "p": "/api/v1/models",
+        "b": null
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-config",
+     "open": false,
+     "method": "GET",
+     "path": "/api/v1/config",
+     "desc": "آستانه‌ها و جدول تصمیم",
+     "blocks": [
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl https://YOUR-LINK.trycloudflare.com/api/v1/config"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/config\");\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.get(\"https://YOUR-LINK.trycloudflare.com/api/v1/config\")\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"per_model_vote_threshold\": 0.5,\n  \"min_votes_for_toxic\": 2,\n  \"strong_single_model\": 0.9,\n  \"fingilish_strong_single\": 0.95,\n  \"solo_vote_corroboration_floor\": 0.3\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "GET",
+        "p": "/api/v1/config",
+        "b": null
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    },
+    {
+     "id": "ep-stats",
+     "open": false,
+     "method": "GET",
+     "path": "/api/v1/stats",
+     "desc": "آمار از زمان راه‌اندازی",
+     "blocks": [
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl https://YOUR-LINK.trycloudflare.com/api/v1/stats"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/stats\");\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.get(\"https://YOUR-LINK.trycloudflare.com/api/v1/stats\")\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"requests\": 1840,\n  \"texts_checked\": 1622,\n  \"decisions\": {\n    \"SAFE\": 1201,\n    \"SUSPECT\": 188,\n    \"TOXIC\": 233\n  },\n  \"cache_hits\": 214,\n  \"avg_latency_ms\": 356.4\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "GET",
+        "p": "/api/v1/stats",
+        "b": null
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "g-admin",
+   "title": "مدیریت۱",
+   "eps": [
+    {
+     "id": "ep-cache",
+     "open": false,
+     "method": "POST",
+     "path": "/api/v1/cache/clear",
+     "desc": "خالی کردن حافظه‌ی موقت",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "نیاز به کلید <code>GUARD_ADMIN_KEY</code> در هدر <code>X-API-Key</code>.",
+       "cls": ""
+      },
+      {
+       "type": "code",
+       "tabs": [
+        {
+         "label": "curl",
+         "text": "curl -X POST https://YOUR-LINK.trycloudflare.com/api/v1/cache/clear \\\n  -H \"Content-Type: application/json\" \\\n  -d '{}'"
+        },
+        {
+         "label": "JavaScript",
+         "text": "const r = await fetch(\"https://YOUR-LINK.trycloudflare.com/api/v1/cache/clear\", {\n  method: \"POST\",\n  headers: { \"Content-Type\": \"application/json\" },\n  body: JSON.stringify({}),\n});\nconsole.log(await r.json());"
+        },
+        {
+         "label": "Python",
+         "text": "import requests\n\nr = requests.post(\"https://YOUR-LINK.trycloudflare.com/api/v1/cache/clear\", json={})\nprint(r.json())"
+        },
+        {
+         "label": "پاسخ",
+         "text": "{\n  \"cleared\": 214\n}"
+        }
+       ]
+      },
+      {
+       "type": "try",
+       "data": {
+        "m": "POST",
+        "p": "/api/v1/cache/clear",
+        "b": {}
+       },
+       "label": "امتحان در کنسول"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "toc": [
+  {
+   "title": "شروع",
+   "items": [
+    {
+     "href": "#links",
+     "m": "",
+     "p": "لینک‌های زنده"
+    },
+    {
+     "href": "#quick",
+     "m": "",
+     "p": "شروع سریع"
+    },
+    {
+     "href": "#auth",
+     "m": "",
+     "p": "کلید و محدودیت"
+    },
+    {
+     "href": "#errors",
+     "m": "",
+     "p": "خطاها"
+    },
+    {
+     "href": "#console",
+     "m": "",
+     "p": "کنسول"
+    },
+    {
+     "href": "#clients",
+     "m": "",
+     "p": "کتابخانه‌ها"
+    }
+   ]
+  },
+  {
+   "title": "بررسی متن",
+   "items": [
+    {
+     "href": "#ep-check",
+     "m": "POST",
+     "p": "/check"
+    },
+    {
+     "href": "#ep-check-get",
+     "m": "GET",
+     "p": "/check?text=…"
+    },
+    {
+     "href": "#ep-batch",
+     "m": "POST",
+     "p": "/check/batch"
+    },
+    {
+     "href": "#ep-verdict",
+     "m": "POST",
+     "p": "/verdict"
+    },
+    {
+     "href": "#ep-score",
+     "m": "POST",
+     "p": "/score"
+    },
+    {
+     "href": "#ep-sentences",
+     "m": "POST",
+     "p": "/sentences"
+    },
+    {
+     "href": "#ep-censor",
+     "m": "POST",
+     "p": "/censor"
+    },
+    {
+     "href": "#ep-moderations",
+     "m": "POST",
+     "p": "/moderations"
+    }
+   ]
+  },
+  {
+   "title": "ابزارهای متن (بدون مدل، فوری)",
+   "items": [
+    {
+     "href": "#ep-profanity",
+     "m": "POST",
+     "p": "/profanity"
+    },
+    {
+     "href": "#ep-language",
+     "m": "POST",
+     "p": "/language"
+    },
+    {
+     "href": "#ep-fing-detect",
+     "m": "POST",
+     "p": "/fingilish/detect"
+    },
+    {
+     "href": "#ep-fing-tr",
+     "m": "POST",
+     "p": "/fingilish/transliterate"
+    },
+    {
+     "href": "#ep-normalize",
+     "m": "POST",
+     "p": "/normalize"
+    }
+   ]
+  },
+  {
+   "title": "وضعیت و اطلاعات",
+   "items": [
+    {
+     "href": "#ep-index",
+     "m": "GET",
+     "p": "/"
+    },
+    {
+     "href": "#ep-health",
+     "m": "GET",
+     "p": "/health"
+    },
+    {
+     "href": "#ep-ready",
+     "m": "GET",
+     "p": "/ready"
+    },
+    {
+     "href": "#ep-info",
+     "m": "GET",
+     "p": "/info"
+    },
+    {
+     "href": "#ep-models",
+     "m": "GET",
+     "p": "/models"
+    },
+    {
+     "href": "#ep-config",
+     "m": "GET",
+     "p": "/config"
+    },
+    {
+     "href": "#ep-stats",
+     "m": "GET",
+     "p": "/stats"
+    }
+   ]
+  },
+  {
+   "title": "مدیریت",
+   "items": [
+    {
+     "href": "#ep-cache",
+     "m": "POST",
+     "p": "/cache/clear"
+    }
+   ]
+  }
+ ],
+ "eps_console": [
+  {
+   "m": "POST",
+   "p": "/api/v1/check",
+   "b": {
+    "text": "to khar hasti"
+   }
+  },
+  {
+   "m": "GET",
+   "p": "/api/v1/check?text=salam%20khoobi",
+   "b": null
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/check/batch",
+   "b": {
+    "texts": [
+     "سلام وقت بخیر",
+     "You are stupid",
+     "kir"
+    ]
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/verdict",
+   "b": {
+    "text": "khafe sho ahmagh"
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/score",
+   "b": {
+    "text": "you idiot",
+    "models": [
+     "textdetox_lg",
+     "twitter_off"
+    ]
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/sentences",
+   "b": {
+    "text": "سلام. تو خیلی احمقی! فردا می‌بینمت."
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/censor",
+   "b": {
+    "text": "you are a k1r, have a nice day"
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/moderations",
+   "b": {
+    "input": [
+     "You are stupid",
+     "hello"
+    ]
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/profanity",
+   "b": {
+    "text": "jakesh, کسکش"
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/language",
+   "b": {
+    "text": "salam khoobi"
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/fingilish/detect",
+   "b": {
+    "text": "to khar hasti"
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/fingilish/transliterate",
+   "b": {
+    "text": "salam khoobi"
+   }
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/normalize",
+   "b": {
+    "text": "K.1.R kiiiir"
+   }
+  },
+  {
+   "m": "GET",
+   "p": "/api/v1",
+   "b": null
+  },
+  {
+   "m": "GET",
+   "p": "/api/v1/health",
+   "b": null
+  },
+  {
+   "m": "GET",
+   "p": "/api/v1/ready",
+   "b": null
+  },
+  {
+   "m": "GET",
+   "p": "/api/v1/info",
+   "b": null
+  },
+  {
+   "m": "GET",
+   "p": "/api/v1/models",
+   "b": null
+  },
+  {
+   "m": "GET",
+   "p": "/api/v1/config",
+   "b": null
+  },
+  {
+   "m": "GET",
+   "p": "/api/v1/stats",
+   "b": null
+  },
+  {
+   "m": "POST",
+   "p": "/api/v1/cache/clear",
+   "b": {}
+  }
+ ]
+}

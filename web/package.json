@@ -1,0 +1,22 @@
+{
+  "name": "unicollect-web",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "description": "React front-end for Unicollect Guard: the Guard panel, Unicollect Chat and the public site (prerendered).",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "dev": "node dev-server.mjs"
+  },
+  "dependencies": {
+    "motion": "^12.23.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

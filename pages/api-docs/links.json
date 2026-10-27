@@ -1,0 +1,10 @@
+{
+  "service": "unicollect-guard",
+  "status": "offline",
+  "online": false,
+  "base_url": null,
+  "links": {"panel": null, "api": null, "health": null, "swagger": null, "redoc": null, "openapi": null, "guide": null},
+  "endpoints": [],
+  "updated_at": null,
+  "note": "Placeholder. scripts/publish_status.sh overwrites this on gh-pages with the live link."
+}

@@ -1,0 +1,83 @@
+/* ==========================================================================
+   Unicollect design tokens
+   Plum night: a dark-purple surface ladder, lavender text and a light-purple
+   brand accent. Verdicts keep three semantic colours: safe = green,
+   suspect = amber, toxic = red. Dark only. One system for site, panel, chat.
+   ========================================================================== */
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("fonts/Vazirmatn.woff2?v=1") format("woff2-variations"), url("fonts/Vazirmatn.woff2?v=1") format("woff2");
+  font-weight: 100 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("fonts/JetBrainsMono.woff2?v=1") format("woff2-variations"), url("fonts/JetBrainsMono.woff2?v=1") format("woff2");
+  font-weight: 100 800; font-style: normal; font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2010-205E, U+20AC, U+2122, U+2190-21FF, U+2212, U+2500-257F;
+}
+
+:root,
+html.dark {
+  /* surfaces: a dark-purple ladder (plum night) */
+  --paper: #0d0916;      /* page */
+  --chat-bg: #130e20;    /* chat main column */
+  --panel: #0f0b1a;      /* sidebar, cards */
+  --panel-2: #1a1330;    /* raised rows, table heads */
+  --field: #211939;      /* composer, inputs, bubbles, menus */
+  --sunk: #08060f;
+  /* text: lavender white, two muted lilacs */
+  --ink: #f1ecff;
+  --ink-2: #c2b7e2;
+  --ink-3: #8c80ad;
+  --line: rgba(196, 181, 253, .09);
+  --line-2: rgba(196, 181, 253, .18);
+  --hover: rgba(196, 181, 253, .07);
+  --active: rgba(196, 181, 253, .12);
+
+  /* brand: dark purple + light purple */
+  --deep: #5b21b6;       /* dark purple */
+  --accent: #8b5cf6;     /* violet */
+  --accent-2: #c4b5fd;   /* light purple / lilac */
+  --lilac: #ddd6fe;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(139, 92, 246, .16);
+  --accent-glow: rgba(139, 92, 246, .38);
+  --grad: linear-gradient(135deg, #6d28d9 0%, #8b5cf6 55%, #c4b5fd 100%);
+
+  /* primary button = light-purple pill, dark-purple label */
+  --btn-bg: #c4b5fd;
+  --btn-bg-hover: #ddd6fe;
+  --btn-ink: #1e1036;
+
+  /* legacy names (old airmail stripe) now point at the palette */
+  --air-red: var(--accent);
+  --air-blue: var(--ink-3);
+
+  /* three verdict colours (kept semantic: green / amber / red) */
+  --safe: #34d399;    --safe-soft: rgba(52, 211, 153, .14);
+  --suspect: #fbbf24; --suspect-soft: rgba(251, 191, 36, .14);
+  --toxic: #fb5a78;   --toxic-soft: rgba(251, 90, 120, .15);
+
+  --code-bg: #0b0814;
+  --code-head: #211939;
+  --code-ink: #f1ecff;
+  --code-dim: #8c80ad;
+
+  --overlay: rgba(9, 5, 20, .62);
+  --shadow-1: 0 1px 2px rgba(5, 2, 12, .4);
+  --shadow-2: 0 18px 50px -14px rgba(5, 2, 12, .8);
+  --shadow-pop: 0 10px 32px rgba(5, 2, 12, .55), 0 0 0 1px var(--line);
+
+  --font: "Vazirmatn", Tahoma, "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", "Vazirmatn", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 24px;
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --ease-spring: cubic-bezier(.34, 1.45, .64, 1);
+  --ease-io: cubic-bezier(.65, 0, .35, 1);
+
+  color-scheme: dark;
+}
