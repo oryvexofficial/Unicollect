@@ -1,130 +1,130 @@
 {
   "service": "unicollect-guard",
-  "status": "starting",
-  "online": false,
-  "base_url": null,
+  "status": "online",
+  "online": true,
+  "base_url": "https://albert-fruit-cube-dimension.trycloudflare.com",
   "links": {
-    "panel": null,
-    "api": null,
-    "health": null,
-    "swagger": null,
-    "redoc": null,
-    "openapi": null,
-    "guide": null
+    "panel": "https://albert-fruit-cube-dimension.trycloudflare.com",
+    "api": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1",
+    "health": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/health",
+    "swagger": "https://albert-fruit-cube-dimension.trycloudflare.com/docs",
+    "redoc": "https://albert-fruit-cube-dimension.trycloudflare.com/redoc",
+    "openapi": "https://albert-fruit-cube-dimension.trycloudflare.com/openapi.json",
+    "guide": "https://albert-fruit-cube-dimension.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": null
+      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-27T18:15:28+00:00",
+  "updated_at": "2026-10-27T18:17:56+00:00",
   "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40558241821",
   "run_number": 3,
   "commit": "957c06e"
