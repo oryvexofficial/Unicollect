@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://albert-fruit-cube-dimension.trycloudflare.com",
+  "base_url": "https://finest-filing-rays-miami.trycloudflare.com",
   "links": {
-    "panel": "https://albert-fruit-cube-dimension.trycloudflare.com",
-    "api": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1",
-    "health": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/health",
-    "swagger": "https://albert-fruit-cube-dimension.trycloudflare.com/docs",
-    "redoc": "https://albert-fruit-cube-dimension.trycloudflare.com/redoc",
-    "openapi": "https://albert-fruit-cube-dimension.trycloudflare.com/openapi.json",
-    "guide": "https://albert-fruit-cube-dimension.trycloudflare.com/api-docs"
+    "panel": "https://finest-filing-rays-miami.trycloudflare.com",
+    "api": "https://finest-filing-rays-miami.trycloudflare.com/api/v1",
+    "health": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/health",
+    "swagger": "https://finest-filing-rays-miami.trycloudflare.com/docs",
+    "redoc": "https://finest-filing-rays-miami.trycloudflare.com/redoc",
+    "openapi": "https://finest-filing-rays-miami.trycloudflare.com/openapi.json",
+    "guide": "https://finest-filing-rays-miami.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/health"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/ready"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/info"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/models"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/config"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/stats"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/check"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/check"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/check/batch"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/verdict"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/score"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/sentences"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/censor"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/moderations"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/profanity"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/language"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/v1/normalize"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/api/check"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://albert-fruit-cube-dimension.trycloudflare.com/health"
+      "url": "https://finest-filing-rays-miami.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-27T18:17:56+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40558241821",
-  "run_number": 3,
-  "commit": "957c06e"
+  "updated_at": "2026-10-27T18:32:08+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40560351925",
+  "run_number": 4,
+  "commit": "0a79db0"
 }
