@@ -1,0 +1,131 @@
+{
+  "service": "unicollect-guard",
+  "status": "starting",
+  "online": false,
+  "base_url": null,
+  "links": {
+    "panel": null,
+    "api": null,
+    "health": null,
+    "swagger": null,
+    "redoc": null,
+    "openapi": null,
+    "guide": null
+  },
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/api/v1",
+      "url": null
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/health",
+      "url": null
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/ready",
+      "url": null
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/info",
+      "url": null
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/models",
+      "url": null
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/config",
+      "url": null
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/stats",
+      "url": null
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/check",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/check",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/check/batch",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/verdict",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/score",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/sentences",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/censor",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/moderations",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/profanity",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/language",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/fingilish/detect",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/fingilish/transliterate",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/normalize",
+      "url": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/check",
+      "url": null
+    },
+    {
+      "method": "GET",
+      "path": "/health",
+      "url": null
+    }
+  ],
+  "updated_at": "2026-10-27T18:02:33+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40556206929",
+  "run_number": 1,
+  "commit": "5471adc"
+}
