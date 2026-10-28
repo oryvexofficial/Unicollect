@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://variety-eyed-beautifully-nato.trycloudflare.com",
+  "base_url": "https://carroll-kings-regime-emails.trycloudflare.com",
   "links": {
-    "panel": "https://variety-eyed-beautifully-nato.trycloudflare.com",
-    "api": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1",
-    "health": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/health",
-    "swagger": "https://variety-eyed-beautifully-nato.trycloudflare.com/docs",
-    "redoc": "https://variety-eyed-beautifully-nato.trycloudflare.com/redoc",
-    "openapi": "https://variety-eyed-beautifully-nato.trycloudflare.com/openapi.json",
-    "guide": "https://variety-eyed-beautifully-nato.trycloudflare.com/api-docs"
+    "panel": "https://carroll-kings-regime-emails.trycloudflare.com",
+    "api": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1",
+    "health": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/health",
+    "swagger": "https://carroll-kings-regime-emails.trycloudflare.com/docs",
+    "redoc": "https://carroll-kings-regime-emails.trycloudflare.com/redoc",
+    "openapi": "https://carroll-kings-regime-emails.trycloudflare.com/openapi.json",
+    "guide": "https://carroll-kings-regime-emails.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/health"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/ready"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/info"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/models"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/config"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/stats"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/check"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/check"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/check/batch"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/verdict"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/score"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/sentences"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/censor"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/moderations"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/profanity"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/language"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/v1/normalize"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/api/check"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://variety-eyed-beautifully-nato.trycloudflare.com/health"
+      "url": "https://carroll-kings-regime-emails.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-28T18:44:48+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40747473866",
-  "run_number": 9,
+  "updated_at": "2026-10-28T23:35:13+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40787975130",
+  "run_number": 10,
   "commit": "0a79db0"
 }
