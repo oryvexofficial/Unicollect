@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://parks-anatomy-thunder-baskets.trycloudflare.com",
+  "base_url": "https://delivery-albums-residents-apollo.trycloudflare.com",
   "links": {
-    "panel": "https://parks-anatomy-thunder-baskets.trycloudflare.com",
-    "api": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1",
-    "health": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/health",
-    "swagger": "https://parks-anatomy-thunder-baskets.trycloudflare.com/docs",
-    "redoc": "https://parks-anatomy-thunder-baskets.trycloudflare.com/redoc",
-    "openapi": "https://parks-anatomy-thunder-baskets.trycloudflare.com/openapi.json",
-    "guide": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api-docs"
+    "panel": "https://delivery-albums-residents-apollo.trycloudflare.com",
+    "api": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1",
+    "health": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/health",
+    "swagger": "https://delivery-albums-residents-apollo.trycloudflare.com/docs",
+    "redoc": "https://delivery-albums-residents-apollo.trycloudflare.com/redoc",
+    "openapi": "https://delivery-albums-residents-apollo.trycloudflare.com/openapi.json",
+    "guide": "https://delivery-albums-residents-apollo.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/health"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/ready"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/info"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/models"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/config"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/stats"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/check"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/check"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/check/batch"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/verdict"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/score"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/sentences"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/censor"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/moderations"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/profanity"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/language"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/v1/normalize"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/api/check"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://parks-anatomy-thunder-baskets.trycloudflare.com/health"
+      "url": "https://delivery-albums-residents-apollo.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-28T04:13:47+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40630812400",
-  "run_number": 6,
+  "updated_at": "2026-10-28T09:03:49+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40660979884",
+  "run_number": 7,
   "commit": "0a79db0"
 }
