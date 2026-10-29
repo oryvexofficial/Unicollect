@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://composite-males-others-enormous.trycloudflare.com",
+  "base_url": "https://coaching-licensing-assumes-points.trycloudflare.com",
   "links": {
-    "panel": "https://composite-males-others-enormous.trycloudflare.com",
-    "api": "https://composite-males-others-enormous.trycloudflare.com/api/v1",
-    "health": "https://composite-males-others-enormous.trycloudflare.com/api/v1/health",
-    "swagger": "https://composite-males-others-enormous.trycloudflare.com/docs",
-    "redoc": "https://composite-males-others-enormous.trycloudflare.com/redoc",
-    "openapi": "https://composite-males-others-enormous.trycloudflare.com/openapi.json",
-    "guide": "https://composite-males-others-enormous.trycloudflare.com/api-docs"
+    "panel": "https://coaching-licensing-assumes-points.trycloudflare.com",
+    "api": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1",
+    "health": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/health",
+    "swagger": "https://coaching-licensing-assumes-points.trycloudflare.com/docs",
+    "redoc": "https://coaching-licensing-assumes-points.trycloudflare.com/redoc",
+    "openapi": "https://coaching-licensing-assumes-points.trycloudflare.com/openapi.json",
+    "guide": "https://coaching-licensing-assumes-points.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/health"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/ready"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/info"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/models"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/config"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/stats"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/check"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/check"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/check/batch"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/verdict"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/score"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/sentences"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/censor"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/moderations"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/profanity"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/language"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/v1/normalize"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/api/check"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://composite-males-others-enormous.trycloudflare.com/health"
+      "url": "https://coaching-licensing-assumes-points.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-29T14:07:12+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40887841968",
-  "run_number": 13,
+  "updated_at": "2026-10-29T18:57:35+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40935261054",
+  "run_number": 14,
   "commit": "0a79db0"
 }
