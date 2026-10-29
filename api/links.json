@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://throughout-settlement-dense-unknown.trycloudflare.com",
+  "base_url": "https://centuries-science-exhibits-academic.trycloudflare.com",
   "links": {
-    "panel": "https://throughout-settlement-dense-unknown.trycloudflare.com",
-    "api": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1",
-    "health": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/health",
-    "swagger": "https://throughout-settlement-dense-unknown.trycloudflare.com/docs",
-    "redoc": "https://throughout-settlement-dense-unknown.trycloudflare.com/redoc",
-    "openapi": "https://throughout-settlement-dense-unknown.trycloudflare.com/openapi.json",
-    "guide": "https://throughout-settlement-dense-unknown.trycloudflare.com/api-docs"
+    "panel": "https://centuries-science-exhibits-academic.trycloudflare.com",
+    "api": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1",
+    "health": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/health",
+    "swagger": "https://centuries-science-exhibits-academic.trycloudflare.com/docs",
+    "redoc": "https://centuries-science-exhibits-academic.trycloudflare.com/redoc",
+    "openapi": "https://centuries-science-exhibits-academic.trycloudflare.com/openapi.json",
+    "guide": "https://centuries-science-exhibits-academic.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/health"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/ready"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/info"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/models"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/config"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/stats"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/check"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/check"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/check/batch"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/verdict"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/score"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/sentences"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/censor"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/moderations"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/profanity"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/language"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/v1/normalize"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/api/check"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://throughout-settlement-dense-unknown.trycloudflare.com/health"
+      "url": "https://centuries-science-exhibits-academic.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-29T04:25:19+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40817408736",
-  "run_number": 11,
+  "updated_at": "2026-10-29T09:17:24+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/40847988843",
+  "run_number": 12,
   "commit": "0a79db0"
 }
