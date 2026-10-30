@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://motels-tub-crew-gathered.trycloudflare.com",
+  "base_url": "https://assuming-games-presently-domestic.trycloudflare.com",
   "links": {
-    "panel": "https://motels-tub-crew-gathered.trycloudflare.com",
-    "api": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1",
-    "health": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/health",
-    "swagger": "https://motels-tub-crew-gathered.trycloudflare.com/docs",
-    "redoc": "https://motels-tub-crew-gathered.trycloudflare.com/redoc",
-    "openapi": "https://motels-tub-crew-gathered.trycloudflare.com/openapi.json",
-    "guide": "https://motels-tub-crew-gathered.trycloudflare.com/api-docs"
+    "panel": "https://assuming-games-presently-domestic.trycloudflare.com",
+    "api": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1",
+    "health": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/health",
+    "swagger": "https://assuming-games-presently-domestic.trycloudflare.com/docs",
+    "redoc": "https://assuming-games-presently-domestic.trycloudflare.com/redoc",
+    "openapi": "https://assuming-games-presently-domestic.trycloudflare.com/openapi.json",
+    "guide": "https://assuming-games-presently-domestic.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/health"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/ready"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/info"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/models"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/config"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/stats"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/check"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/check"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/check/batch"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/verdict"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/score"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/sentences"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/censor"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/moderations"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/profanity"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/language"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/v1/normalize"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/api/check"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://motels-tub-crew-gathered.trycloudflare.com/health"
+      "url": "https://assuming-games-presently-domestic.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-30T04:39:40+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41003819590",
-  "run_number": 16,
+  "updated_at": "2026-10-30T09:30:52+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41033554725",
+  "run_number": 17,
   "commit": "0a79db0"
 }
