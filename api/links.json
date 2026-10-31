@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://processes-bone-composite-problems.trycloudflare.com",
+  "base_url": "https://belle-burn-penalties-clothing.trycloudflare.com",
   "links": {
-    "panel": "https://processes-bone-composite-problems.trycloudflare.com",
-    "api": "https://processes-bone-composite-problems.trycloudflare.com/api/v1",
-    "health": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/health",
-    "swagger": "https://processes-bone-composite-problems.trycloudflare.com/docs",
-    "redoc": "https://processes-bone-composite-problems.trycloudflare.com/redoc",
-    "openapi": "https://processes-bone-composite-problems.trycloudflare.com/openapi.json",
-    "guide": "https://processes-bone-composite-problems.trycloudflare.com/api-docs"
+    "panel": "https://belle-burn-penalties-clothing.trycloudflare.com",
+    "api": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1",
+    "health": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/health",
+    "swagger": "https://belle-burn-penalties-clothing.trycloudflare.com/docs",
+    "redoc": "https://belle-burn-penalties-clothing.trycloudflare.com/redoc",
+    "openapi": "https://belle-burn-penalties-clothing.trycloudflare.com/openapi.json",
+    "guide": "https://belle-burn-penalties-clothing.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/health"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/ready"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/info"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/models"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/config"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/stats"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/check"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/check"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/check/batch"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/verdict"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/score"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/sentences"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/censor"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/moderations"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/profanity"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/language"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/v1/normalize"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/api/check"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://processes-bone-composite-problems.trycloudflare.com/health"
+      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-31T09:44:27+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41189716903",
-  "run_number": 22,
+  "updated_at": "2026-10-31T14:35:09+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41210533244",
+  "run_number": 23,
   "commit": "0a79db0"
 }
