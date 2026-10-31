@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://belle-burn-penalties-clothing.trycloudflare.com",
+  "base_url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com",
   "links": {
-    "panel": "https://belle-burn-penalties-clothing.trycloudflare.com",
-    "api": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1",
-    "health": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/health",
-    "swagger": "https://belle-burn-penalties-clothing.trycloudflare.com/docs",
-    "redoc": "https://belle-burn-penalties-clothing.trycloudflare.com/redoc",
-    "openapi": "https://belle-burn-penalties-clothing.trycloudflare.com/openapi.json",
-    "guide": "https://belle-burn-penalties-clothing.trycloudflare.com/api-docs"
+    "panel": "https://consulting-minneapolis-evolution-apart.trycloudflare.com",
+    "api": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1",
+    "health": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/health",
+    "swagger": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/docs",
+    "redoc": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/redoc",
+    "openapi": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/openapi.json",
+    "guide": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/health"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/ready"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/info"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/models"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/config"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/stats"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/check"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/check"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/check/batch"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/verdict"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/score"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/sentences"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/censor"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/moderations"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/profanity"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/language"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/v1/normalize"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/api/check"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://belle-burn-penalties-clothing.trycloudflare.com/health"
+      "url": "https://consulting-minneapolis-evolution-apart.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-31T14:35:09+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41210533244",
-  "run_number": 23,
+  "updated_at": "2026-10-31T19:24:36+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41233876431",
+  "run_number": 24,
   "commit": "0a79db0"
 }
