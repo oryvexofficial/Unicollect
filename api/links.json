@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://pulled-training-ensemble-upgrades.trycloudflare.com",
+  "base_url": "https://june-sphere-priority-utilities.trycloudflare.com",
   "links": {
-    "panel": "https://pulled-training-ensemble-upgrades.trycloudflare.com",
-    "api": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1",
-    "health": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/health",
-    "swagger": "https://pulled-training-ensemble-upgrades.trycloudflare.com/docs",
-    "redoc": "https://pulled-training-ensemble-upgrades.trycloudflare.com/redoc",
-    "openapi": "https://pulled-training-ensemble-upgrades.trycloudflare.com/openapi.json",
-    "guide": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api-docs"
+    "panel": "https://june-sphere-priority-utilities.trycloudflare.com",
+    "api": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1",
+    "health": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/health",
+    "swagger": "https://june-sphere-priority-utilities.trycloudflare.com/docs",
+    "redoc": "https://june-sphere-priority-utilities.trycloudflare.com/redoc",
+    "openapi": "https://june-sphere-priority-utilities.trycloudflare.com/openapi.json",
+    "guide": "https://june-sphere-priority-utilities.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/health"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/ready"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/info"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/models"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/config"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/stats"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/check"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/check"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/check/batch"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/verdict"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/score"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/sentences"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/censor"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/moderations"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/profanity"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/language"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/v1/normalize"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/api/check"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://pulled-training-ensemble-upgrades.trycloudflare.com/health"
+      "url": "https://june-sphere-priority-utilities.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-10-31T00:03:14+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41147678732",
-  "run_number": 20,
+  "updated_at": "2026-10-31T04:53:24+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41170171765",
+  "run_number": 21,
   "commit": "0a79db0"
 }
