@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://upon-removal-delete-themes.trycloudflare.com",
+  "base_url": "https://task-ourselves-evening-champagne.trycloudflare.com",
   "links": {
-    "panel": "https://upon-removal-delete-themes.trycloudflare.com",
-    "api": "https://upon-removal-delete-themes.trycloudflare.com/api/v1",
-    "health": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/health",
-    "swagger": "https://upon-removal-delete-themes.trycloudflare.com/docs",
-    "redoc": "https://upon-removal-delete-themes.trycloudflare.com/redoc",
-    "openapi": "https://upon-removal-delete-themes.trycloudflare.com/openapi.json",
-    "guide": "https://upon-removal-delete-themes.trycloudflare.com/api-docs"
+    "panel": "https://task-ourselves-evening-champagne.trycloudflare.com",
+    "api": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1",
+    "health": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/health",
+    "swagger": "https://task-ourselves-evening-champagne.trycloudflare.com/docs",
+    "redoc": "https://task-ourselves-evening-champagne.trycloudflare.com/redoc",
+    "openapi": "https://task-ourselves-evening-champagne.trycloudflare.com/openapi.json",
+    "guide": "https://task-ourselves-evening-champagne.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/health"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/ready"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/info"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/models"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/config"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/stats"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/check"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/check"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/check/batch"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/verdict"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/score"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/sentences"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/censor"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/moderations"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/profanity"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/language"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/v1/normalize"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/api/check"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://upon-removal-delete-themes.trycloudflare.com/health"
+      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-01T05:06:54+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41275431880",
-  "run_number": 26,
+  "updated_at": "2026-11-01T09:56:58+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41295131177",
+  "run_number": 27,
   "commit": "0a79db0"
 }
