@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://task-ourselves-evening-champagne.trycloudflare.com",
+  "base_url": "https://hypothesis-fate-workers-brochure.trycloudflare.com",
   "links": {
-    "panel": "https://task-ourselves-evening-champagne.trycloudflare.com",
-    "api": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1",
-    "health": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/health",
-    "swagger": "https://task-ourselves-evening-champagne.trycloudflare.com/docs",
-    "redoc": "https://task-ourselves-evening-champagne.trycloudflare.com/redoc",
-    "openapi": "https://task-ourselves-evening-champagne.trycloudflare.com/openapi.json",
-    "guide": "https://task-ourselves-evening-champagne.trycloudflare.com/api-docs"
+    "panel": "https://hypothesis-fate-workers-brochure.trycloudflare.com",
+    "api": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1",
+    "health": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/health",
+    "swagger": "https://hypothesis-fate-workers-brochure.trycloudflare.com/docs",
+    "redoc": "https://hypothesis-fate-workers-brochure.trycloudflare.com/redoc",
+    "openapi": "https://hypothesis-fate-workers-brochure.trycloudflare.com/openapi.json",
+    "guide": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/health"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/ready"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/info"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/models"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/config"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/stats"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/check"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/check"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/check/batch"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/verdict"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/score"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/sentences"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/censor"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/moderations"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/profanity"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/language"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/v1/normalize"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/api/check"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://task-ourselves-evening-champagne.trycloudflare.com/health"
+      "url": "https://hypothesis-fate-workers-brochure.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-01T09:56:58+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41295131177",
-  "run_number": 27,
+  "updated_at": "2026-11-01T14:48:25+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41317726747",
+  "run_number": 28,
   "commit": "0a79db0"
 }
