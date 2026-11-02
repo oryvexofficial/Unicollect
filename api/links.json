@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://continually-passive-rip-continuous.trycloudflare.com",
+  "base_url": "https://workplace-zus-going-technological.trycloudflare.com",
   "links": {
-    "panel": "https://continually-passive-rip-continuous.trycloudflare.com",
-    "api": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1",
-    "health": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/health",
-    "swagger": "https://continually-passive-rip-continuous.trycloudflare.com/docs",
-    "redoc": "https://continually-passive-rip-continuous.trycloudflare.com/redoc",
-    "openapi": "https://continually-passive-rip-continuous.trycloudflare.com/openapi.json",
-    "guide": "https://continually-passive-rip-continuous.trycloudflare.com/api-docs"
+    "panel": "https://workplace-zus-going-technological.trycloudflare.com",
+    "api": "https://workplace-zus-going-technological.trycloudflare.com/api/v1",
+    "health": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/health",
+    "swagger": "https://workplace-zus-going-technological.trycloudflare.com/docs",
+    "redoc": "https://workplace-zus-going-technological.trycloudflare.com/redoc",
+    "openapi": "https://workplace-zus-going-technological.trycloudflare.com/openapi.json",
+    "guide": "https://workplace-zus-going-technological.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/health"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/ready"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/info"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/models"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/config"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/stats"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/check"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/check"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/check/batch"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/verdict"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/score"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/sentences"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/censor"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/moderations"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/profanity"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/language"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/v1/normalize"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/api/check"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://continually-passive-rip-continuous.trycloudflare.com/health"
+      "url": "https://workplace-zus-going-technological.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-01T19:39:15+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41342546339",
-  "run_number": 29,
+  "updated_at": "2026-11-02T00:29:35+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41367208029",
+  "run_number": 30,
   "commit": "0a79db0"
 }
