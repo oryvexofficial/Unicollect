@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://workplace-zus-going-technological.trycloudflare.com",
+  "base_url": "https://medicaid-metadata-remainder-address.trycloudflare.com",
   "links": {
-    "panel": "https://workplace-zus-going-technological.trycloudflare.com",
-    "api": "https://workplace-zus-going-technological.trycloudflare.com/api/v1",
-    "health": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/health",
-    "swagger": "https://workplace-zus-going-technological.trycloudflare.com/docs",
-    "redoc": "https://workplace-zus-going-technological.trycloudflare.com/redoc",
-    "openapi": "https://workplace-zus-going-technological.trycloudflare.com/openapi.json",
-    "guide": "https://workplace-zus-going-technological.trycloudflare.com/api-docs"
+    "panel": "https://medicaid-metadata-remainder-address.trycloudflare.com",
+    "api": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1",
+    "health": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/health",
+    "swagger": "https://medicaid-metadata-remainder-address.trycloudflare.com/docs",
+    "redoc": "https://medicaid-metadata-remainder-address.trycloudflare.com/redoc",
+    "openapi": "https://medicaid-metadata-remainder-address.trycloudflare.com/openapi.json",
+    "guide": "https://medicaid-metadata-remainder-address.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/health"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/ready"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/info"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/models"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/config"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/stats"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/check"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/check"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/check/batch"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/verdict"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/score"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/sentences"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/censor"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/moderations"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/profanity"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/language"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/v1/normalize"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/api/check"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://workplace-zus-going-technological.trycloudflare.com/health"
+      "url": "https://medicaid-metadata-remainder-address.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-02T00:29:35+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41367208029",
-  "run_number": 30,
+  "updated_at": "2026-11-02T05:21:02+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41393186502",
+  "run_number": 31,
   "commit": "0a79db0"
 }
