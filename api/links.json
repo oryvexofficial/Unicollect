@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://terrorism-peripherals-theater-endif.trycloudflare.com",
+  "base_url": "https://inputs-syndicate-clips-bend.trycloudflare.com",
   "links": {
-    "panel": "https://terrorism-peripherals-theater-endif.trycloudflare.com",
-    "api": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1",
-    "health": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/health",
-    "swagger": "https://terrorism-peripherals-theater-endif.trycloudflare.com/docs",
-    "redoc": "https://terrorism-peripherals-theater-endif.trycloudflare.com/redoc",
-    "openapi": "https://terrorism-peripherals-theater-endif.trycloudflare.com/openapi.json",
-    "guide": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api-docs"
+    "panel": "https://inputs-syndicate-clips-bend.trycloudflare.com",
+    "api": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1",
+    "health": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/health",
+    "swagger": "https://inputs-syndicate-clips-bend.trycloudflare.com/docs",
+    "redoc": "https://inputs-syndicate-clips-bend.trycloudflare.com/redoc",
+    "openapi": "https://inputs-syndicate-clips-bend.trycloudflare.com/openapi.json",
+    "guide": "https://inputs-syndicate-clips-bend.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/health"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/ready"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/info"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/models"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/config"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/stats"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/check"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/check"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/check/batch"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/verdict"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/score"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/sentences"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/censor"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/moderations"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/profanity"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/language"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/v1/normalize"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/api/check"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://terrorism-peripherals-theater-endif.trycloudflare.com/health"
+      "url": "https://inputs-syndicate-clips-bend.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-02T10:11:29+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41426396870",
-  "run_number": 32,
+  "updated_at": "2026-11-02T15:02:06+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41467190770",
+  "run_number": 33,
   "commit": "0a79db0"
 }
