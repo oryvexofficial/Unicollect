@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com",
+  "base_url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com",
   "links": {
-    "panel": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com",
-    "api": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1",
-    "health": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/health",
-    "swagger": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/docs",
-    "redoc": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/redoc",
-    "openapi": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/openapi.json",
-    "guide": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api-docs"
+    "panel": "https://accepted-skirt-memorabilia-prague.trycloudflare.com",
+    "api": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1",
+    "health": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/health",
+    "swagger": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/docs",
+    "redoc": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/redoc",
+    "openapi": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/openapi.json",
+    "guide": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/health"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/ready"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/info"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/models"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/config"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/stats"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/check"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/check"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/check/batch"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/verdict"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/score"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/sentences"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/censor"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/moderations"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/profanity"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/language"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/normalize"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/check"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/health"
+      "url": "https://accepted-skirt-memorabilia-prague.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-03T15:15:07+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41661418164",
-  "run_number": 38,
+  "updated_at": "2026-11-03T20:06:23+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41708845668",
+  "run_number": 39,
   "commit": "0a79db0"
 }
