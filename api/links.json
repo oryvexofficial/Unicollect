@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://camping-roll-dpi-amendments.trycloudflare.com",
+  "base_url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com",
   "links": {
-    "panel": "https://camping-roll-dpi-amendments.trycloudflare.com",
-    "api": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1",
-    "health": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/health",
-    "swagger": "https://camping-roll-dpi-amendments.trycloudflare.com/docs",
-    "redoc": "https://camping-roll-dpi-amendments.trycloudflare.com/redoc",
-    "openapi": "https://camping-roll-dpi-amendments.trycloudflare.com/openapi.json",
-    "guide": "https://camping-roll-dpi-amendments.trycloudflare.com/api-docs"
+    "panel": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com",
+    "api": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1",
+    "health": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/health",
+    "swagger": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/docs",
+    "redoc": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/redoc",
+    "openapi": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/openapi.json",
+    "guide": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/health"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/ready"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/info"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/models"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/config"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/stats"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/check"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/check"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/check/batch"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/verdict"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/score"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/sentences"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/censor"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/moderations"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/profanity"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/language"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/v1/normalize"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/api/check"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://camping-roll-dpi-amendments.trycloudflare.com/health"
+      "url": "https://documentation-attendance-tattoo-exhibitions.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-03T10:25:28+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41618661631",
-  "run_number": 37,
+  "updated_at": "2026-11-03T15:15:07+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41661418164",
+  "run_number": 38,
   "commit": "0a79db0"
 }
