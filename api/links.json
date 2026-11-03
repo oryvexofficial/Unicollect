@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://secondary-link-jacob-airports.trycloudflare.com",
+  "base_url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com",
   "links": {
-    "panel": "https://secondary-link-jacob-airports.trycloudflare.com",
-    "api": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1",
-    "health": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/health",
-    "swagger": "https://secondary-link-jacob-airports.trycloudflare.com/docs",
-    "redoc": "https://secondary-link-jacob-airports.trycloudflare.com/redoc",
-    "openapi": "https://secondary-link-jacob-airports.trycloudflare.com/openapi.json",
-    "guide": "https://secondary-link-jacob-airports.trycloudflare.com/api-docs"
+    "panel": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com",
+    "api": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1",
+    "health": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/health",
+    "swagger": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/docs",
+    "redoc": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/redoc",
+    "openapi": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/openapi.json",
+    "guide": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/health"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/ready"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/info"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/models"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/config"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/stats"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/check"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/check"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/check/batch"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/verdict"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/score"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/sentences"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/censor"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/moderations"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/profanity"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/language"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/v1/normalize"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/api/check"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://secondary-link-jacob-airports.trycloudflare.com/health"
+      "url": "https://algorithm-ensemble-anticipated-baker.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-02T19:53:00+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41513561009",
-  "run_number": 34,
+  "updated_at": "2026-11-03T00:43:17+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41554492931",
+  "run_number": 35,
   "commit": "0a79db0"
 }
