@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://mathematics-disclose-encoding-workers.trycloudflare.com",
+  "base_url": "https://merchandise-achieve-compared-apply.trycloudflare.com",
   "links": {
-    "panel": "https://mathematics-disclose-encoding-workers.trycloudflare.com",
-    "api": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1",
-    "health": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/health",
-    "swagger": "https://mathematics-disclose-encoding-workers.trycloudflare.com/docs",
-    "redoc": "https://mathematics-disclose-encoding-workers.trycloudflare.com/redoc",
-    "openapi": "https://mathematics-disclose-encoding-workers.trycloudflare.com/openapi.json",
-    "guide": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api-docs"
+    "panel": "https://merchandise-achieve-compared-apply.trycloudflare.com",
+    "api": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1",
+    "health": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/health",
+    "swagger": "https://merchandise-achieve-compared-apply.trycloudflare.com/docs",
+    "redoc": "https://merchandise-achieve-compared-apply.trycloudflare.com/redoc",
+    "openapi": "https://merchandise-achieve-compared-apply.trycloudflare.com/openapi.json",
+    "guide": "https://merchandise-achieve-compared-apply.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/health"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/ready"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/info"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/models"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/config"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/stats"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/check"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/check"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/check/batch"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/verdict"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/score"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/sentences"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/censor"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/moderations"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/profanity"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/language"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/v1/normalize"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/api/check"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://mathematics-disclose-encoding-workers.trycloudflare.com/health"
+      "url": "https://merchandise-achieve-compared-apply.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-04T16:17:07+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41865214666",
-  "run_number": 43,
+  "updated_at": "2026-11-04T21:07:51+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41912654948",
+  "run_number": 44,
   "commit": "0a79db0"
 }
