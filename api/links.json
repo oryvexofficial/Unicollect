@@ -1,6 +1,6 @@
 {
   "service": "unicollect-guard",
-  "status": "offline",
+  "status": "starting",
   "online": false,
   "base_url": null,
   "links": {
@@ -124,8 +124,8 @@
       "url": null
     }
   ],
-  "updated_at": "2026-11-04T11:29:54+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41781033188",
-  "run_number": 41,
+  "updated_at": "2026-11-04T16:14:22+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41865214666",
+  "run_number": 43,
   "commit": "0a79db0"
 }
