@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://shareware-fork-hamburg-sherman.trycloudflare.com",
+  "base_url": "https://introduce-courage-int-keyboards.trycloudflare.com",
   "links": {
-    "panel": "https://shareware-fork-hamburg-sherman.trycloudflare.com",
-    "api": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1",
-    "health": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/health",
-    "swagger": "https://shareware-fork-hamburg-sherman.trycloudflare.com/docs",
-    "redoc": "https://shareware-fork-hamburg-sherman.trycloudflare.com/redoc",
-    "openapi": "https://shareware-fork-hamburg-sherman.trycloudflare.com/openapi.json",
-    "guide": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api-docs"
+    "panel": "https://introduce-courage-int-keyboards.trycloudflare.com",
+    "api": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1",
+    "health": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/health",
+    "swagger": "https://introduce-courage-int-keyboards.trycloudflare.com/docs",
+    "redoc": "https://introduce-courage-int-keyboards.trycloudflare.com/redoc",
+    "openapi": "https://introduce-courage-int-keyboards.trycloudflare.com/openapi.json",
+    "guide": "https://introduce-courage-int-keyboards.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/health"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/ready"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/info"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/models"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/config"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/stats"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/check"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/check"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/check/batch"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/verdict"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/score"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/sentences"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/censor"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/moderations"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/profanity"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/language"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/v1/normalize"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/api/check"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://shareware-fork-hamburg-sherman.trycloudflare.com/health"
+      "url": "https://introduce-courage-int-keyboards.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-05T01:58:34+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41951776047",
-  "run_number": 45,
+  "updated_at": "2026-11-05T06:49:51+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/41982700193",
+  "run_number": 46,
   "commit": "0a79db0"
 }
