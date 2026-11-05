@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://fool-dependence-witch-constraints.trycloudflare.com",
+  "base_url": "https://join-rebound-holes-five.trycloudflare.com",
   "links": {
-    "panel": "https://fool-dependence-witch-constraints.trycloudflare.com",
-    "api": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1",
-    "health": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/health",
-    "swagger": "https://fool-dependence-witch-constraints.trycloudflare.com/docs",
-    "redoc": "https://fool-dependence-witch-constraints.trycloudflare.com/redoc",
-    "openapi": "https://fool-dependence-witch-constraints.trycloudflare.com/openapi.json",
-    "guide": "https://fool-dependence-witch-constraints.trycloudflare.com/api-docs"
+    "panel": "https://join-rebound-holes-five.trycloudflare.com",
+    "api": "https://join-rebound-holes-five.trycloudflare.com/api/v1",
+    "health": "https://join-rebound-holes-five.trycloudflare.com/api/v1/health",
+    "swagger": "https://join-rebound-holes-five.trycloudflare.com/docs",
+    "redoc": "https://join-rebound-holes-five.trycloudflare.com/redoc",
+    "openapi": "https://join-rebound-holes-five.trycloudflare.com/openapi.json",
+    "guide": "https://join-rebound-holes-five.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/health"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/ready"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/info"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/models"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/config"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/stats"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/check"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/check"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/check/batch"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/verdict"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/score"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/sentences"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/censor"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/moderations"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/profanity"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/language"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/normalize"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/check"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/health"
+      "url": "https://join-rebound-holes-five.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-05T16:31:08+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42064635356",
-  "run_number": 48,
+  "updated_at": "2026-11-05T21:21:19+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42111401550",
+  "run_number": 49,
   "commit": "0a79db0"
 }
