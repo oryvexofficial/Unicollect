@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://drivers-housing-baseball-fixed.trycloudflare.com",
+  "base_url": "https://fool-dependence-witch-constraints.trycloudflare.com",
   "links": {
-    "panel": "https://drivers-housing-baseball-fixed.trycloudflare.com",
-    "api": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1",
-    "health": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/health",
-    "swagger": "https://drivers-housing-baseball-fixed.trycloudflare.com/docs",
-    "redoc": "https://drivers-housing-baseball-fixed.trycloudflare.com/redoc",
-    "openapi": "https://drivers-housing-baseball-fixed.trycloudflare.com/openapi.json",
-    "guide": "https://drivers-housing-baseball-fixed.trycloudflare.com/api-docs"
+    "panel": "https://fool-dependence-witch-constraints.trycloudflare.com",
+    "api": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1",
+    "health": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/health",
+    "swagger": "https://fool-dependence-witch-constraints.trycloudflare.com/docs",
+    "redoc": "https://fool-dependence-witch-constraints.trycloudflare.com/redoc",
+    "openapi": "https://fool-dependence-witch-constraints.trycloudflare.com/openapi.json",
+    "guide": "https://fool-dependence-witch-constraints.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/health"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/ready"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/info"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/models"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/config"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/stats"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/check"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/check"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/check/batch"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/verdict"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/score"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/sentences"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/censor"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/moderations"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/profanity"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/language"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/v1/normalize"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/api/check"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://drivers-housing-baseball-fixed.trycloudflare.com/health"
+      "url": "https://fool-dependence-witch-constraints.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-05T11:39:57+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42020436807",
-  "run_number": 47,
+  "updated_at": "2026-11-05T16:31:08+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42064635356",
+  "run_number": 48,
   "commit": "0a79db0"
 }
