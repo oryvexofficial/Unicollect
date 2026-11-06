@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://watershed-render-minor-functions.trycloudflare.com",
+  "base_url": "https://fee-peace-board-affair.trycloudflare.com",
   "links": {
-    "panel": "https://watershed-render-minor-functions.trycloudflare.com",
-    "api": "https://watershed-render-minor-functions.trycloudflare.com/api/v1",
-    "health": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/health",
-    "swagger": "https://watershed-render-minor-functions.trycloudflare.com/docs",
-    "redoc": "https://watershed-render-minor-functions.trycloudflare.com/redoc",
-    "openapi": "https://watershed-render-minor-functions.trycloudflare.com/openapi.json",
-    "guide": "https://watershed-render-minor-functions.trycloudflare.com/api-docs"
+    "panel": "https://fee-peace-board-affair.trycloudflare.com",
+    "api": "https://fee-peace-board-affair.trycloudflare.com/api/v1",
+    "health": "https://fee-peace-board-affair.trycloudflare.com/api/v1/health",
+    "swagger": "https://fee-peace-board-affair.trycloudflare.com/docs",
+    "redoc": "https://fee-peace-board-affair.trycloudflare.com/redoc",
+    "openapi": "https://fee-peace-board-affair.trycloudflare.com/openapi.json",
+    "guide": "https://fee-peace-board-affair.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/health"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/ready"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/info"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/models"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/config"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/stats"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/check"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/check"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/check/batch"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/verdict"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/score"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/sentences"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/censor"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/moderations"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/profanity"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/language"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/v1/normalize"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/api/check"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://watershed-render-minor-functions.trycloudflare.com/health"
+      "url": "https://fee-peace-board-affair.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-06T12:38:47+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42218840533",
-  "run_number": 52,
+  "updated_at": "2026-11-06T17:30:07+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42261654488",
+  "run_number": 53,
   "commit": "0a79db0"
 }
