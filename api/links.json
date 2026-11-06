@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://fee-peace-board-affair.trycloudflare.com",
+  "base_url": "https://brush-sauce-are-sensor.trycloudflare.com",
   "links": {
-    "panel": "https://fee-peace-board-affair.trycloudflare.com",
-    "api": "https://fee-peace-board-affair.trycloudflare.com/api/v1",
-    "health": "https://fee-peace-board-affair.trycloudflare.com/api/v1/health",
-    "swagger": "https://fee-peace-board-affair.trycloudflare.com/docs",
-    "redoc": "https://fee-peace-board-affair.trycloudflare.com/redoc",
-    "openapi": "https://fee-peace-board-affair.trycloudflare.com/openapi.json",
-    "guide": "https://fee-peace-board-affair.trycloudflare.com/api-docs"
+    "panel": "https://brush-sauce-are-sensor.trycloudflare.com",
+    "api": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1",
+    "health": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/health",
+    "swagger": "https://brush-sauce-are-sensor.trycloudflare.com/docs",
+    "redoc": "https://brush-sauce-are-sensor.trycloudflare.com/redoc",
+    "openapi": "https://brush-sauce-are-sensor.trycloudflare.com/openapi.json",
+    "guide": "https://brush-sauce-are-sensor.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/health"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/ready"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/info"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/models"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/config"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/stats"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/check"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/check"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/check/batch"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/verdict"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/score"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/sentences"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/censor"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/moderations"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/profanity"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/language"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/v1/normalize"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/api/check"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://fee-peace-board-affair.trycloudflare.com/health"
+      "url": "https://brush-sauce-are-sensor.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-06T17:30:07+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42261654488",
-  "run_number": 53,
+  "updated_at": "2026-11-06T22:19:49+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42303452817",
+  "run_number": 54,
   "commit": "0a79db0"
 }
