@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com",
+  "base_url": "https://framing-troops-diffs-protein.trycloudflare.com",
   "links": {
-    "panel": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com",
-    "api": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1",
-    "health": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/health",
-    "swagger": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/docs",
-    "redoc": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/redoc",
-    "openapi": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/openapi.json",
-    "guide": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api-docs"
+    "panel": "https://framing-troops-diffs-protein.trycloudflare.com",
+    "api": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1",
+    "health": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/health",
+    "swagger": "https://framing-troops-diffs-protein.trycloudflare.com/docs",
+    "redoc": "https://framing-troops-diffs-protein.trycloudflare.com/redoc",
+    "openapi": "https://framing-troops-diffs-protein.trycloudflare.com/openapi.json",
+    "guide": "https://framing-troops-diffs-protein.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/health"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/ready"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/info"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/models"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/config"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/stats"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/check"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/check"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/check/batch"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/verdict"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/score"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/sentences"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/censor"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/moderations"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/profanity"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/language"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/normalize"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/check"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/health"
+      "url": "https://framing-troops-diffs-protein.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-06T02:56:18+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42153178826",
-  "run_number": 50,
+  "updated_at": "2026-11-06T07:47:05+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42182866212",
+  "run_number": 51,
   "commit": "0a79db0"
 }
