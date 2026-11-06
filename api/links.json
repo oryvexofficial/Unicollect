@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://join-rebound-holes-five.trycloudflare.com",
+  "base_url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com",
   "links": {
-    "panel": "https://join-rebound-holes-five.trycloudflare.com",
-    "api": "https://join-rebound-holes-five.trycloudflare.com/api/v1",
-    "health": "https://join-rebound-holes-five.trycloudflare.com/api/v1/health",
-    "swagger": "https://join-rebound-holes-five.trycloudflare.com/docs",
-    "redoc": "https://join-rebound-holes-five.trycloudflare.com/redoc",
-    "openapi": "https://join-rebound-holes-five.trycloudflare.com/openapi.json",
-    "guide": "https://join-rebound-holes-five.trycloudflare.com/api-docs"
+    "panel": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com",
+    "api": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1",
+    "health": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/health",
+    "swagger": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/docs",
+    "redoc": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/redoc",
+    "openapi": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/openapi.json",
+    "guide": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/health"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/ready"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/info"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/models"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/config"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/stats"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/check"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/check"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/check/batch"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/verdict"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/score"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/sentences"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/censor"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/moderations"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/profanity"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/language"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/v1/normalize"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/api/check"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://join-rebound-holes-five.trycloudflare.com/health"
+      "url": "https://thy-iii-salaries-pharmaceutical.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-05T21:21:19+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42111401550",
-  "run_number": 49,
+  "updated_at": "2026-11-06T02:56:18+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42153178826",
+  "run_number": 50,
   "commit": "0a79db0"
 }
