@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://brush-sauce-are-sensor.trycloudflare.com",
+  "base_url": "https://integration-she-recommended-descriptions.trycloudflare.com",
   "links": {
-    "panel": "https://brush-sauce-are-sensor.trycloudflare.com",
-    "api": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1",
-    "health": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/health",
-    "swagger": "https://brush-sauce-are-sensor.trycloudflare.com/docs",
-    "redoc": "https://brush-sauce-are-sensor.trycloudflare.com/redoc",
-    "openapi": "https://brush-sauce-are-sensor.trycloudflare.com/openapi.json",
-    "guide": "https://brush-sauce-are-sensor.trycloudflare.com/api-docs"
+    "panel": "https://integration-she-recommended-descriptions.trycloudflare.com",
+    "api": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1",
+    "health": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/health",
+    "swagger": "https://integration-she-recommended-descriptions.trycloudflare.com/docs",
+    "redoc": "https://integration-she-recommended-descriptions.trycloudflare.com/redoc",
+    "openapi": "https://integration-she-recommended-descriptions.trycloudflare.com/openapi.json",
+    "guide": "https://integration-she-recommended-descriptions.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/health"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/ready"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/info"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/models"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/config"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/stats"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/check"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/check"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/check/batch"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/verdict"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/score"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/sentences"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/censor"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/moderations"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/profanity"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/language"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/v1/normalize"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/api/check"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://brush-sauce-are-sensor.trycloudflare.com/health"
+      "url": "https://integration-she-recommended-descriptions.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-06T22:19:49+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42303452817",
-  "run_number": 54,
+  "updated_at": "2026-11-07T03:10:27+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42332507990",
+  "run_number": 55,
   "commit": "0a79db0"
 }
