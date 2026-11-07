@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://protocols-successful-depot-ordering.trycloudflare.com",
+  "base_url": "https://experience-artwork-loading-fairy.trycloudflare.com",
   "links": {
-    "panel": "https://protocols-successful-depot-ordering.trycloudflare.com",
-    "api": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1",
-    "health": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/health",
-    "swagger": "https://protocols-successful-depot-ordering.trycloudflare.com/docs",
-    "redoc": "https://protocols-successful-depot-ordering.trycloudflare.com/redoc",
-    "openapi": "https://protocols-successful-depot-ordering.trycloudflare.com/openapi.json",
-    "guide": "https://protocols-successful-depot-ordering.trycloudflare.com/api-docs"
+    "panel": "https://experience-artwork-loading-fairy.trycloudflare.com",
+    "api": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1",
+    "health": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/health",
+    "swagger": "https://experience-artwork-loading-fairy.trycloudflare.com/docs",
+    "redoc": "https://experience-artwork-loading-fairy.trycloudflare.com/redoc",
+    "openapi": "https://experience-artwork-loading-fairy.trycloudflare.com/openapi.json",
+    "guide": "https://experience-artwork-loading-fairy.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/health"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/ready"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/info"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/models"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/config"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/stats"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/check"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/check"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/check/batch"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/verdict"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/score"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/sentences"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/censor"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/moderations"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/profanity"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/language"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/v1/normalize"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/api/check"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://protocols-successful-depot-ordering.trycloudflare.com/health"
+      "url": "https://experience-artwork-loading-fairy.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-07T08:00:59+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42353427901",
-  "run_number": 56,
+  "updated_at": "2026-11-07T12:52:10+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42374101971",
+  "run_number": 57,
   "commit": "0a79db0"
 }
