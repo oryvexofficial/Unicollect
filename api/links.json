@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://bring-reviewed-train-outer.trycloudflare.com",
+  "base_url": "https://astronomy-affair-prefer-may.trycloudflare.com",
   "links": {
-    "panel": "https://bring-reviewed-train-outer.trycloudflare.com",
-    "api": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1",
-    "health": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/health",
-    "swagger": "https://bring-reviewed-train-outer.trycloudflare.com/docs",
-    "redoc": "https://bring-reviewed-train-outer.trycloudflare.com/redoc",
-    "openapi": "https://bring-reviewed-train-outer.trycloudflare.com/openapi.json",
-    "guide": "https://bring-reviewed-train-outer.trycloudflare.com/api-docs"
+    "panel": "https://astronomy-affair-prefer-may.trycloudflare.com",
+    "api": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1",
+    "health": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/health",
+    "swagger": "https://astronomy-affair-prefer-may.trycloudflare.com/docs",
+    "redoc": "https://astronomy-affair-prefer-may.trycloudflare.com/redoc",
+    "openapi": "https://astronomy-affair-prefer-may.trycloudflare.com/openapi.json",
+    "guide": "https://astronomy-affair-prefer-may.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/health"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/ready"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/info"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/models"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/config"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/stats"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/check"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/check"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/check/batch"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/verdict"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/score"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/sentences"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/censor"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/moderations"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/profanity"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/language"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/v1/normalize"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/api/check"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://bring-reviewed-train-outer.trycloudflare.com/health"
+      "url": "https://astronomy-affair-prefer-may.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-08T03:23:30+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42442271336",
-  "run_number": 60,
+  "updated_at": "2026-11-08T08:12:53+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42461761717",
+  "run_number": 61,
   "commit": "0a79db0"
 }
