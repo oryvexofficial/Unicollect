@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://silence-max-creation-finances.trycloudflare.com",
+  "base_url": "https://preservation-bodies-distinction-divide.trycloudflare.com",
   "links": {
-    "panel": "https://silence-max-creation-finances.trycloudflare.com",
-    "api": "https://silence-max-creation-finances.trycloudflare.com/api/v1",
-    "health": "https://silence-max-creation-finances.trycloudflare.com/api/v1/health",
-    "swagger": "https://silence-max-creation-finances.trycloudflare.com/docs",
-    "redoc": "https://silence-max-creation-finances.trycloudflare.com/redoc",
-    "openapi": "https://silence-max-creation-finances.trycloudflare.com/openapi.json",
-    "guide": "https://silence-max-creation-finances.trycloudflare.com/api-docs"
+    "panel": "https://preservation-bodies-distinction-divide.trycloudflare.com",
+    "api": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1",
+    "health": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/health",
+    "swagger": "https://preservation-bodies-distinction-divide.trycloudflare.com/docs",
+    "redoc": "https://preservation-bodies-distinction-divide.trycloudflare.com/redoc",
+    "openapi": "https://preservation-bodies-distinction-divide.trycloudflare.com/openapi.json",
+    "guide": "https://preservation-bodies-distinction-divide.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/health"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/ready"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/info"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/models"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/config"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/stats"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/check"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/check"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/check/batch"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/verdict"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/score"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/sentences"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/censor"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/moderations"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/profanity"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/language"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/v1/normalize"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/api/check"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://silence-max-creation-finances.trycloudflare.com/health"
+      "url": "https://preservation-bodies-distinction-divide.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-09T03:36:13+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42557006982",
-  "run_number": 65,
+  "updated_at": "2026-11-09T08:26:53+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42585654431",
+  "run_number": 66,
   "commit": "0a79db0"
 }
