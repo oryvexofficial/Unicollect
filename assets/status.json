@@ -1,8 +1,8 @@
 {
   "status": "online",
-  "url_payload": "aHR0cHM6Ly9wcmVzZXJ2YXRpb24tYm9kaWVzLWRpc3RpbmN0aW9uLWRpdmlkZS50cnljbG91ZGZsYXJlLmNvbQ==",
-  "updated_at": "2026-11-09T08:26:53+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42585654431",
-  "run_number": 66,
+  "url_payload": "aHR0cHM6Ly9lbGltaW5hdGlvbi1zY2hlbWEtYXJ1YmEtc2VydmVyLnRyeWNsb3VkZmxhcmUuY29t",
+  "updated_at": "2026-11-09T13:17:24+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42623714683",
+  "run_number": 67,
   "commit": "0a79db0"
 }
