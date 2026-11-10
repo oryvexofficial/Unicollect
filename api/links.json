@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://survival-chevy-enterprises-shipments.trycloudflare.com",
+  "base_url": "https://trusts-candy-moderator-liberal.trycloudflare.com",
   "links": {
-    "panel": "https://survival-chevy-enterprises-shipments.trycloudflare.com",
-    "api": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1",
-    "health": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/health",
-    "swagger": "https://survival-chevy-enterprises-shipments.trycloudflare.com/docs",
-    "redoc": "https://survival-chevy-enterprises-shipments.trycloudflare.com/redoc",
-    "openapi": "https://survival-chevy-enterprises-shipments.trycloudflare.com/openapi.json",
-    "guide": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api-docs"
+    "panel": "https://trusts-candy-moderator-liberal.trycloudflare.com",
+    "api": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1",
+    "health": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/health",
+    "swagger": "https://trusts-candy-moderator-liberal.trycloudflare.com/docs",
+    "redoc": "https://trusts-candy-moderator-liberal.trycloudflare.com/redoc",
+    "openapi": "https://trusts-candy-moderator-liberal.trycloudflare.com/openapi.json",
+    "guide": "https://trusts-candy-moderator-liberal.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/health"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/ready"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/info"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/models"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/config"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/stats"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/check"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/check"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/check/batch"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/verdict"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/score"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/sentences"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/censor"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/moderations"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/profanity"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/language"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/normalize"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/check"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/health"
+      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-10T18:21:12+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42873871276",
-  "run_number": 73,
+  "updated_at": "2026-11-10T23:11:59+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42920862258",
+  "run_number": 74,
   "commit": "0a79db0"
 }
