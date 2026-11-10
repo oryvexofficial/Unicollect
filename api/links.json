@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://ruth-forbes-born-roll.trycloudflare.com",
+  "base_url": "https://survival-chevy-enterprises-shipments.trycloudflare.com",
   "links": {
-    "panel": "https://ruth-forbes-born-roll.trycloudflare.com",
-    "api": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1",
-    "health": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/health",
-    "swagger": "https://ruth-forbes-born-roll.trycloudflare.com/docs",
-    "redoc": "https://ruth-forbes-born-roll.trycloudflare.com/redoc",
-    "openapi": "https://ruth-forbes-born-roll.trycloudflare.com/openapi.json",
-    "guide": "https://ruth-forbes-born-roll.trycloudflare.com/api-docs"
+    "panel": "https://survival-chevy-enterprises-shipments.trycloudflare.com",
+    "api": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1",
+    "health": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/health",
+    "swagger": "https://survival-chevy-enterprises-shipments.trycloudflare.com/docs",
+    "redoc": "https://survival-chevy-enterprises-shipments.trycloudflare.com/redoc",
+    "openapi": "https://survival-chevy-enterprises-shipments.trycloudflare.com/openapi.json",
+    "guide": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/health"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/ready"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/info"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/models"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/config"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/stats"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/check"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/check"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/check/batch"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/verdict"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/score"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/sentences"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/censor"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/moderations"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/profanity"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/language"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/v1/normalize"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/api/check"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://ruth-forbes-born-roll.trycloudflare.com/health"
+      "url": "https://survival-chevy-enterprises-shipments.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-10T13:30:53+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42824742801",
-  "run_number": 72,
+  "updated_at": "2026-11-10T18:21:12+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42873871276",
+  "run_number": 73,
   "commit": "0a79db0"
 }
