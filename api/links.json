@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://independent-there-respond-powers.trycloudflare.com",
+  "base_url": "https://power-ceramic-stationery-orlando.trycloudflare.com",
   "links": {
-    "panel": "https://independent-there-respond-powers.trycloudflare.com",
-    "api": "https://independent-there-respond-powers.trycloudflare.com/api/v1",
-    "health": "https://independent-there-respond-powers.trycloudflare.com/api/v1/health",
-    "swagger": "https://independent-there-respond-powers.trycloudflare.com/docs",
-    "redoc": "https://independent-there-respond-powers.trycloudflare.com/redoc",
-    "openapi": "https://independent-there-respond-powers.trycloudflare.com/openapi.json",
-    "guide": "https://independent-there-respond-powers.trycloudflare.com/api-docs"
+    "panel": "https://power-ceramic-stationery-orlando.trycloudflare.com",
+    "api": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1",
+    "health": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/health",
+    "swagger": "https://power-ceramic-stationery-orlando.trycloudflare.com/docs",
+    "redoc": "https://power-ceramic-stationery-orlando.trycloudflare.com/redoc",
+    "openapi": "https://power-ceramic-stationery-orlando.trycloudflare.com/openapi.json",
+    "guide": "https://power-ceramic-stationery-orlando.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/health"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/ready"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/info"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/models"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/config"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/stats"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/check"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/check"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/check/batch"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/verdict"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/score"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/sentences"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/censor"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/moderations"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/profanity"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/language"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/v1/normalize"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/api/check"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://independent-there-respond-powers.trycloudflare.com/health"
+      "url": "https://power-ceramic-stationery-orlando.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-09T22:58:50+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42716106779",
-  "run_number": 69,
+  "updated_at": "2026-11-10T03:48:45+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42751531729",
+  "run_number": 70,
   "commit": "0a79db0"
 }
