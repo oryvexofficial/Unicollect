@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://textiles-malpractice-brian-principle.trycloudflare.com",
+  "base_url": "https://pest-pierce-dos-organizations.trycloudflare.com",
   "links": {
-    "panel": "https://textiles-malpractice-brian-principle.trycloudflare.com",
-    "api": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1",
-    "health": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/health",
-    "swagger": "https://textiles-malpractice-brian-principle.trycloudflare.com/docs",
-    "redoc": "https://textiles-malpractice-brian-principle.trycloudflare.com/redoc",
-    "openapi": "https://textiles-malpractice-brian-principle.trycloudflare.com/openapi.json",
-    "guide": "https://textiles-malpractice-brian-principle.trycloudflare.com/api-docs"
+    "panel": "https://pest-pierce-dos-organizations.trycloudflare.com",
+    "api": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1",
+    "health": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/health",
+    "swagger": "https://pest-pierce-dos-organizations.trycloudflare.com/docs",
+    "redoc": "https://pest-pierce-dos-organizations.trycloudflare.com/redoc",
+    "openapi": "https://pest-pierce-dos-organizations.trycloudflare.com/openapi.json",
+    "guide": "https://pest-pierce-dos-organizations.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/health"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/ready"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/info"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/models"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/config"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/stats"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/check"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/check"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/check/batch"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/verdict"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/score"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/sentences"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/censor"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/moderations"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/profanity"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/language"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/v1/normalize"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/api/check"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://textiles-malpractice-brian-principle.trycloudflare.com/health"
+      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-11T08:53:13+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42990143295",
-  "run_number": 76,
+  "updated_at": "2026-11-11T13:43:05+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43031182848",
+  "run_number": 77,
   "commit": "0a79db0"
 }
