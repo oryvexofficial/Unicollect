@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://pest-pierce-dos-organizations.trycloudflare.com",
+  "base_url": "https://seeking-certificates-net-relying.trycloudflare.com",
   "links": {
-    "panel": "https://pest-pierce-dos-organizations.trycloudflare.com",
-    "api": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1",
-    "health": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/health",
-    "swagger": "https://pest-pierce-dos-organizations.trycloudflare.com/docs",
-    "redoc": "https://pest-pierce-dos-organizations.trycloudflare.com/redoc",
-    "openapi": "https://pest-pierce-dos-organizations.trycloudflare.com/openapi.json",
-    "guide": "https://pest-pierce-dos-organizations.trycloudflare.com/api-docs"
+    "panel": "https://seeking-certificates-net-relying.trycloudflare.com",
+    "api": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1",
+    "health": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/health",
+    "swagger": "https://seeking-certificates-net-relying.trycloudflare.com/docs",
+    "redoc": "https://seeking-certificates-net-relying.trycloudflare.com/redoc",
+    "openapi": "https://seeking-certificates-net-relying.trycloudflare.com/openapi.json",
+    "guide": "https://seeking-certificates-net-relying.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/health"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/ready"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/info"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/models"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/config"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/stats"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/check"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/check"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/check/batch"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/verdict"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/score"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/sentences"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/censor"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/moderations"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/profanity"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/language"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/v1/normalize"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/api/check"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://pest-pierce-dos-organizations.trycloudflare.com/health"
+      "url": "https://seeking-certificates-net-relying.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-11T13:43:05+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43031182848",
-  "run_number": 77,
+  "updated_at": "2026-11-11T18:32:46+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43078369056",
+  "run_number": 78,
   "commit": "0a79db0"
 }
