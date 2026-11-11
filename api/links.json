@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://trusts-candy-moderator-liberal.trycloudflare.com",
+  "base_url": "https://chen-cities-trek-extensive.trycloudflare.com",
   "links": {
-    "panel": "https://trusts-candy-moderator-liberal.trycloudflare.com",
-    "api": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1",
-    "health": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/health",
-    "swagger": "https://trusts-candy-moderator-liberal.trycloudflare.com/docs",
-    "redoc": "https://trusts-candy-moderator-liberal.trycloudflare.com/redoc",
-    "openapi": "https://trusts-candy-moderator-liberal.trycloudflare.com/openapi.json",
-    "guide": "https://trusts-candy-moderator-liberal.trycloudflare.com/api-docs"
+    "panel": "https://chen-cities-trek-extensive.trycloudflare.com",
+    "api": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1",
+    "health": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/health",
+    "swagger": "https://chen-cities-trek-extensive.trycloudflare.com/docs",
+    "redoc": "https://chen-cities-trek-extensive.trycloudflare.com/redoc",
+    "openapi": "https://chen-cities-trek-extensive.trycloudflare.com/openapi.json",
+    "guide": "https://chen-cities-trek-extensive.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/health"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/ready"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/info"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/models"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/config"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/stats"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/check"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/check"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/check/batch"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/verdict"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/score"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/sentences"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/censor"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/moderations"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/profanity"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/language"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/v1/normalize"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/api/check"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://trusts-candy-moderator-liberal.trycloudflare.com/health"
+      "url": "https://chen-cities-trek-extensive.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-10T23:11:59+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42920862258",
-  "run_number": 74,
+  "updated_at": "2026-11-11T04:02:32+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/42956286793",
+  "run_number": 75,
   "commit": "0a79db0"
 }
