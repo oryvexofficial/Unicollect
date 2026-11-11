@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://seeking-certificates-net-relying.trycloudflare.com",
+  "base_url": "https://faster-pci-breach-mega.trycloudflare.com",
   "links": {
-    "panel": "https://seeking-certificates-net-relying.trycloudflare.com",
-    "api": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1",
-    "health": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/health",
-    "swagger": "https://seeking-certificates-net-relying.trycloudflare.com/docs",
-    "redoc": "https://seeking-certificates-net-relying.trycloudflare.com/redoc",
-    "openapi": "https://seeking-certificates-net-relying.trycloudflare.com/openapi.json",
-    "guide": "https://seeking-certificates-net-relying.trycloudflare.com/api-docs"
+    "panel": "https://faster-pci-breach-mega.trycloudflare.com",
+    "api": "https://faster-pci-breach-mega.trycloudflare.com/api/v1",
+    "health": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/health",
+    "swagger": "https://faster-pci-breach-mega.trycloudflare.com/docs",
+    "redoc": "https://faster-pci-breach-mega.trycloudflare.com/redoc",
+    "openapi": "https://faster-pci-breach-mega.trycloudflare.com/openapi.json",
+    "guide": "https://faster-pci-breach-mega.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/health"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/ready"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/info"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/models"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/config"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/stats"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/check"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/check"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/check/batch"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/verdict"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/score"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/sentences"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/censor"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/moderations"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/profanity"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/language"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/v1/normalize"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/api/check"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://seeking-certificates-net-relying.trycloudflare.com/health"
+      "url": "https://faster-pci-breach-mega.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-11T18:32:46+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43078369056",
-  "run_number": 78,
+  "updated_at": "2026-11-11T23:25:01+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43119164618",
+  "run_number": 79,
   "commit": "0a79db0"
 }
