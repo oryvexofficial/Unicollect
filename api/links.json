@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://bedroom-plant-professor-finally.trycloudflare.com",
+  "base_url": "https://institutes-realm-ratings-transparency.trycloudflare.com",
   "links": {
-    "panel": "https://bedroom-plant-professor-finally.trycloudflare.com",
-    "api": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1",
-    "health": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/health",
-    "swagger": "https://bedroom-plant-professor-finally.trycloudflare.com/docs",
-    "redoc": "https://bedroom-plant-professor-finally.trycloudflare.com/redoc",
-    "openapi": "https://bedroom-plant-professor-finally.trycloudflare.com/openapi.json",
-    "guide": "https://bedroom-plant-professor-finally.trycloudflare.com/api-docs"
+    "panel": "https://institutes-realm-ratings-transparency.trycloudflare.com",
+    "api": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1",
+    "health": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/health",
+    "swagger": "https://institutes-realm-ratings-transparency.trycloudflare.com/docs",
+    "redoc": "https://institutes-realm-ratings-transparency.trycloudflare.com/redoc",
+    "openapi": "https://institutes-realm-ratings-transparency.trycloudflare.com/openapi.json",
+    "guide": "https://institutes-realm-ratings-transparency.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/health"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/ready"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/info"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/models"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/config"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/stats"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/check"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/check"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/check/batch"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/verdict"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/score"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/sentences"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/censor"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/moderations"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/profanity"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/language"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/normalize"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/check"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/health"
+      "url": "https://institutes-realm-ratings-transparency.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-12T04:42:23+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43153142260",
-  "run_number": 80,
+  "updated_at": "2026-11-12T09:05:11+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43187909402",
+  "run_number": 81,
   "commit": "0a79db0"
 }
