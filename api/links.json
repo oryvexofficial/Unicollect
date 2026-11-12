@@ -2,129 +2,129 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://api.trycloudflare.com",
+  "base_url": "https://bedroom-plant-professor-finally.trycloudflare.com",
   "links": {
-    "panel": "https://api.trycloudflare.com",
-    "api": "https://api.trycloudflare.com/api/v1",
-    "health": "https://api.trycloudflare.com/api/v1/health",
-    "swagger": "https://api.trycloudflare.com/docs",
-    "redoc": "https://api.trycloudflare.com/redoc",
-    "openapi": "https://api.trycloudflare.com/openapi.json",
-    "guide": "https://api.trycloudflare.com/api-docs"
+    "panel": "https://bedroom-plant-professor-finally.trycloudflare.com",
+    "api": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1",
+    "health": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/health",
+    "swagger": "https://bedroom-plant-professor-finally.trycloudflare.com/docs",
+    "redoc": "https://bedroom-plant-professor-finally.trycloudflare.com/redoc",
+    "openapi": "https://bedroom-plant-professor-finally.trycloudflare.com/openapi.json",
+    "guide": "https://bedroom-plant-professor-finally.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://api.trycloudflare.com/api/v1"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://api.trycloudflare.com/api/v1/health"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://api.trycloudflare.com/api/v1/ready"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://api.trycloudflare.com/api/v1/info"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://api.trycloudflare.com/api/v1/models"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://api.trycloudflare.com/api/v1/config"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://api.trycloudflare.com/api/v1/stats"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://api.trycloudflare.com/api/v1/check"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://api.trycloudflare.com/api/v1/check"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://api.trycloudflare.com/api/v1/check/batch"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://api.trycloudflare.com/api/v1/verdict"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://api.trycloudflare.com/api/v1/score"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://api.trycloudflare.com/api/v1/sentences"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://api.trycloudflare.com/api/v1/censor"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://api.trycloudflare.com/api/v1/moderations"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://api.trycloudflare.com/api/v1/profanity"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://api.trycloudflare.com/api/v1/language"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://api.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://api.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://api.trycloudflare.com/api/v1/normalize"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://api.trycloudflare.com/api/check"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://api.trycloudflare.com/health"
+      "url": "https://bedroom-plant-professor-finally.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-12T04:36:10+00:00",
+  "updated_at": "2026-11-12T04:42:23+00:00",
   "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43153142260",
   "run_number": 80,
   "commit": "0a79db0"
