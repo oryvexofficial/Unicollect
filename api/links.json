@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://faster-pci-breach-mega.trycloudflare.com",
+  "base_url": "https://api.trycloudflare.com",
   "links": {
-    "panel": "https://faster-pci-breach-mega.trycloudflare.com",
-    "api": "https://faster-pci-breach-mega.trycloudflare.com/api/v1",
-    "health": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/health",
-    "swagger": "https://faster-pci-breach-mega.trycloudflare.com/docs",
-    "redoc": "https://faster-pci-breach-mega.trycloudflare.com/redoc",
-    "openapi": "https://faster-pci-breach-mega.trycloudflare.com/openapi.json",
-    "guide": "https://faster-pci-breach-mega.trycloudflare.com/api-docs"
+    "panel": "https://api.trycloudflare.com",
+    "api": "https://api.trycloudflare.com/api/v1",
+    "health": "https://api.trycloudflare.com/api/v1/health",
+    "swagger": "https://api.trycloudflare.com/docs",
+    "redoc": "https://api.trycloudflare.com/redoc",
+    "openapi": "https://api.trycloudflare.com/openapi.json",
+    "guide": "https://api.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1"
+      "url": "https://api.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/health"
+      "url": "https://api.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/ready"
+      "url": "https://api.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/info"
+      "url": "https://api.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/models"
+      "url": "https://api.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/config"
+      "url": "https://api.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/stats"
+      "url": "https://api.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/check"
+      "url": "https://api.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/check"
+      "url": "https://api.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/check/batch"
+      "url": "https://api.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/verdict"
+      "url": "https://api.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/score"
+      "url": "https://api.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/sentences"
+      "url": "https://api.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/censor"
+      "url": "https://api.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/moderations"
+      "url": "https://api.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/profanity"
+      "url": "https://api.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/language"
+      "url": "https://api.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://api.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://api.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/v1/normalize"
+      "url": "https://api.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/api/check"
+      "url": "https://api.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://faster-pci-breach-mega.trycloudflare.com/health"
+      "url": "https://api.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-11T23:25:01+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43119164618",
-  "run_number": 79,
+  "updated_at": "2026-11-12T04:14:49+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43153142260",
+  "run_number": 80,
   "commit": "0a79db0"
 }

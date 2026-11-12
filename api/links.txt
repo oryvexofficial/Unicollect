@@ -1,1 +1,1 @@
-https://faster-pci-breach-mega.trycloudflare.com
+https://api.trycloudflare.com
