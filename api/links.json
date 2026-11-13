@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://tommy-shepherd-magnet-signals.trycloudflare.com",
+  "base_url": "https://whats-transcription-talks-complications.trycloudflare.com",
   "links": {
-    "panel": "https://tommy-shepherd-magnet-signals.trycloudflare.com",
-    "api": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1",
-    "health": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/health",
-    "swagger": "https://tommy-shepherd-magnet-signals.trycloudflare.com/docs",
-    "redoc": "https://tommy-shepherd-magnet-signals.trycloudflare.com/redoc",
-    "openapi": "https://tommy-shepherd-magnet-signals.trycloudflare.com/openapi.json",
-    "guide": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api-docs"
+    "panel": "https://whats-transcription-talks-complications.trycloudflare.com",
+    "api": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1",
+    "health": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/health",
+    "swagger": "https://whats-transcription-talks-complications.trycloudflare.com/docs",
+    "redoc": "https://whats-transcription-talks-complications.trycloudflare.com/redoc",
+    "openapi": "https://whats-transcription-talks-complications.trycloudflare.com/openapi.json",
+    "guide": "https://whats-transcription-talks-complications.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/health"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/ready"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/info"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/models"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/config"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/stats"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/check"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/check"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/check/batch"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/verdict"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/score"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/sentences"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/censor"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/moderations"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/profanity"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/language"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/normalize"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/check"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/health"
+      "url": "https://whats-transcription-talks-complications.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-13T04:28:47+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43365354262",
-  "run_number": 85,
+  "updated_at": "2026-11-13T09:18:15+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43399770793",
+  "run_number": 86,
   "commit": "0a79db0"
 }
