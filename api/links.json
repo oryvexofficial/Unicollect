@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://mhz-coordination-payments-romance.trycloudflare.com",
+  "base_url": "https://tommy-shepherd-magnet-signals.trycloudflare.com",
   "links": {
-    "panel": "https://mhz-coordination-payments-romance.trycloudflare.com",
-    "api": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1",
-    "health": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/health",
-    "swagger": "https://mhz-coordination-payments-romance.trycloudflare.com/docs",
-    "redoc": "https://mhz-coordination-payments-romance.trycloudflare.com/redoc",
-    "openapi": "https://mhz-coordination-payments-romance.trycloudflare.com/openapi.json",
-    "guide": "https://mhz-coordination-payments-romance.trycloudflare.com/api-docs"
+    "panel": "https://tommy-shepherd-magnet-signals.trycloudflare.com",
+    "api": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1",
+    "health": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/health",
+    "swagger": "https://tommy-shepherd-magnet-signals.trycloudflare.com/docs",
+    "redoc": "https://tommy-shepherd-magnet-signals.trycloudflare.com/redoc",
+    "openapi": "https://tommy-shepherd-magnet-signals.trycloudflare.com/openapi.json",
+    "guide": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/health"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/ready"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/info"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/models"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/config"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/stats"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/check"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/check"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/check/batch"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/verdict"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/score"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/sentences"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/censor"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/moderations"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/profanity"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/language"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/v1/normalize"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/api/check"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://mhz-coordination-payments-romance.trycloudflare.com/health"
+      "url": "https://tommy-shepherd-magnet-signals.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-12T23:37:01+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43329934947",
-  "run_number": 84,
+  "updated_at": "2026-11-13T04:28:47+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43365354262",
+  "run_number": 85,
   "commit": "0a79db0"
 }
