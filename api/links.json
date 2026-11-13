@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://witness-tomorrow-mary-ended.trycloudflare.com",
+  "base_url": "https://tropical-earth-headphones-laura.trycloudflare.com",
   "links": {
-    "panel": "https://witness-tomorrow-mary-ended.trycloudflare.com",
-    "api": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1",
-    "health": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/health",
-    "swagger": "https://witness-tomorrow-mary-ended.trycloudflare.com/docs",
-    "redoc": "https://witness-tomorrow-mary-ended.trycloudflare.com/redoc",
-    "openapi": "https://witness-tomorrow-mary-ended.trycloudflare.com/openapi.json",
-    "guide": "https://witness-tomorrow-mary-ended.trycloudflare.com/api-docs"
+    "panel": "https://tropical-earth-headphones-laura.trycloudflare.com",
+    "api": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1",
+    "health": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/health",
+    "swagger": "https://tropical-earth-headphones-laura.trycloudflare.com/docs",
+    "redoc": "https://tropical-earth-headphones-laura.trycloudflare.com/redoc",
+    "openapi": "https://tropical-earth-headphones-laura.trycloudflare.com/openapi.json",
+    "guide": "https://tropical-earth-headphones-laura.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/health"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/ready"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/info"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/models"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/config"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/stats"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/check"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/check"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/check/batch"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/verdict"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/score"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/sentences"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/censor"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/moderations"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/profanity"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/language"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/v1/normalize"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/api/check"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://witness-tomorrow-mary-ended.trycloudflare.com/health"
+      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-13T18:59:05+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43487430668",
-  "run_number": 88,
+  "updated_at": "2026-11-13T23:50:13+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43529714789",
+  "run_number": 89,
   "commit": "0a79db0"
 }
