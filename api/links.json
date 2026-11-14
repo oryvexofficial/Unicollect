@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://tropical-earth-headphones-laura.trycloudflare.com",
+  "base_url": "https://flights-por-promising-arnold.trycloudflare.com",
   "links": {
-    "panel": "https://tropical-earth-headphones-laura.trycloudflare.com",
-    "api": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1",
-    "health": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/health",
-    "swagger": "https://tropical-earth-headphones-laura.trycloudflare.com/docs",
-    "redoc": "https://tropical-earth-headphones-laura.trycloudflare.com/redoc",
-    "openapi": "https://tropical-earth-headphones-laura.trycloudflare.com/openapi.json",
-    "guide": "https://tropical-earth-headphones-laura.trycloudflare.com/api-docs"
+    "panel": "https://flights-por-promising-arnold.trycloudflare.com",
+    "api": "https://flights-por-promising-arnold.trycloudflare.com/api/v1",
+    "health": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/health",
+    "swagger": "https://flights-por-promising-arnold.trycloudflare.com/docs",
+    "redoc": "https://flights-por-promising-arnold.trycloudflare.com/redoc",
+    "openapi": "https://flights-por-promising-arnold.trycloudflare.com/openapi.json",
+    "guide": "https://flights-por-promising-arnold.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/health"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/ready"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/info"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/models"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/config"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/stats"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/check"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/check"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/check/batch"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/verdict"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/score"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/sentences"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/censor"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/moderations"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/profanity"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/language"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/v1/normalize"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/api/check"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://tropical-earth-headphones-laura.trycloudflare.com/health"
+      "url": "https://flights-por-promising-arnold.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-13T23:50:13+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43529714789",
-  "run_number": 89,
+  "updated_at": "2026-11-14T04:41:29+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43557638269",
+  "run_number": 90,
   "commit": "0a79db0"
 }
