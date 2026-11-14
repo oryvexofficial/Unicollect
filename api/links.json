@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://attending-mlb-encoding-open.trycloudflare.com",
+  "base_url": "https://riders-giants-fruits-cleveland.trycloudflare.com",
   "links": {
-    "panel": "https://attending-mlb-encoding-open.trycloudflare.com",
-    "api": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1",
-    "health": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/health",
-    "swagger": "https://attending-mlb-encoding-open.trycloudflare.com/docs",
-    "redoc": "https://attending-mlb-encoding-open.trycloudflare.com/redoc",
-    "openapi": "https://attending-mlb-encoding-open.trycloudflare.com/openapi.json",
-    "guide": "https://attending-mlb-encoding-open.trycloudflare.com/api-docs"
+    "panel": "https://riders-giants-fruits-cleveland.trycloudflare.com",
+    "api": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1",
+    "health": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/health",
+    "swagger": "https://riders-giants-fruits-cleveland.trycloudflare.com/docs",
+    "redoc": "https://riders-giants-fruits-cleveland.trycloudflare.com/redoc",
+    "openapi": "https://riders-giants-fruits-cleveland.trycloudflare.com/openapi.json",
+    "guide": "https://riders-giants-fruits-cleveland.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/health"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/ready"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/info"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/models"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/config"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/stats"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/check"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/check"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/check/batch"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/verdict"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/score"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/sentences"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/censor"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/moderations"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/profanity"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/language"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/v1/normalize"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/api/check"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://attending-mlb-encoding-open.trycloudflare.com/health"
+      "url": "https://riders-giants-fruits-cleveland.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-14T14:21:59+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43604226566",
-  "run_number": 92,
+  "updated_at": "2026-11-14T19:12:43+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43630557219",
+  "run_number": 93,
   "commit": "0a79db0"
 }
