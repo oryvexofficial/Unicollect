@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com",
+  "base_url": "https://writes-while-wars-sizes.trycloudflare.com",
   "links": {
-    "panel": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com",
-    "api": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1",
-    "health": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/health",
-    "swagger": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/docs",
-    "redoc": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/redoc",
-    "openapi": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/openapi.json",
-    "guide": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api-docs"
+    "panel": "https://writes-while-wars-sizes.trycloudflare.com",
+    "api": "https://writes-while-wars-sizes.trycloudflare.com/api/v1",
+    "health": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/health",
+    "swagger": "https://writes-while-wars-sizes.trycloudflare.com/docs",
+    "redoc": "https://writes-while-wars-sizes.trycloudflare.com/redoc",
+    "openapi": "https://writes-while-wars-sizes.trycloudflare.com/openapi.json",
+    "guide": "https://writes-while-wars-sizes.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/health"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/ready"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/info"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/models"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/config"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/stats"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/check"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/check"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/check/batch"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/verdict"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/score"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/sentences"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/censor"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/moderations"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/profanity"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/language"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/v1/normalize"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/api/check"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://chemicals-dealtime-bacterial-denver.trycloudflare.com/health"
+      "url": "https://writes-while-wars-sizes.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-15T00:03:37+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43655969692",
-  "run_number": 94,
+  "updated_at": "2026-11-15T04:53:47+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43678520556",
+  "run_number": 95,
   "commit": "0a79db0"
 }
