@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://agreements-billy-reserves-uncle.trycloudflare.com",
+  "base_url": "https://during-bunny-exchange-sole.trycloudflare.com",
   "links": {
-    "panel": "https://agreements-billy-reserves-uncle.trycloudflare.com",
-    "api": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1",
-    "health": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/health",
-    "swagger": "https://agreements-billy-reserves-uncle.trycloudflare.com/docs",
-    "redoc": "https://agreements-billy-reserves-uncle.trycloudflare.com/redoc",
-    "openapi": "https://agreements-billy-reserves-uncle.trycloudflare.com/openapi.json",
-    "guide": "https://agreements-billy-reserves-uncle.trycloudflare.com/api-docs"
+    "panel": "https://during-bunny-exchange-sole.trycloudflare.com",
+    "api": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1",
+    "health": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/health",
+    "swagger": "https://during-bunny-exchange-sole.trycloudflare.com/docs",
+    "redoc": "https://during-bunny-exchange-sole.trycloudflare.com/redoc",
+    "openapi": "https://during-bunny-exchange-sole.trycloudflare.com/openapi.json",
+    "guide": "https://during-bunny-exchange-sole.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/health"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/ready"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/info"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/models"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/config"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/stats"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/check"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/check"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/check/batch"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/verdict"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/score"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/sentences"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/censor"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/moderations"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/profanity"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/language"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/v1/normalize"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/api/check"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://agreements-billy-reserves-uncle.trycloudflare.com/health"
+      "url": "https://during-bunny-exchange-sole.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-15T09:45:04+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43700484573",
-  "run_number": 96,
+  "updated_at": "2026-11-15T14:35:25+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43724879978",
+  "run_number": 97,
   "commit": "0a79db0"
 }
