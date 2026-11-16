@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://isolation-creativity-printer-adoption.trycloudflare.com",
+  "base_url": "https://workflow-states-around-murphy.trycloudflare.com",
   "links": {
-    "panel": "https://isolation-creativity-printer-adoption.trycloudflare.com",
-    "api": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1",
-    "health": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/health",
-    "swagger": "https://isolation-creativity-printer-adoption.trycloudflare.com/docs",
-    "redoc": "https://isolation-creativity-printer-adoption.trycloudflare.com/redoc",
-    "openapi": "https://isolation-creativity-printer-adoption.trycloudflare.com/openapi.json",
-    "guide": "https://isolation-creativity-printer-adoption.trycloudflare.com/api-docs"
+    "panel": "https://workflow-states-around-murphy.trycloudflare.com",
+    "api": "https://workflow-states-around-murphy.trycloudflare.com/api/v1",
+    "health": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/health",
+    "swagger": "https://workflow-states-around-murphy.trycloudflare.com/docs",
+    "redoc": "https://workflow-states-around-murphy.trycloudflare.com/redoc",
+    "openapi": "https://workflow-states-around-murphy.trycloudflare.com/openapi.json",
+    "guide": "https://workflow-states-around-murphy.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/health"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/ready"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/info"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/models"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/config"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/stats"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/check"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/check"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/check/batch"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/verdict"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/score"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/sentences"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/censor"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/moderations"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/profanity"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/language"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/v1/normalize"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/api/check"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://isolation-creativity-printer-adoption.trycloudflare.com/health"
+      "url": "https://workflow-states-around-murphy.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-15T19:26:40+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43752107896",
-  "run_number": 98,
+  "updated_at": "2026-11-16T00:16:32+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43779069546",
+  "run_number": 99,
   "commit": "0a79db0"
 }
