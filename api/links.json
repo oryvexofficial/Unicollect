@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://spies-hometown-tractor-apparel.trycloudflare.com",
+  "base_url": "https://shine-fresh-democracy-essex.trycloudflare.com",
   "links": {
-    "panel": "https://spies-hometown-tractor-apparel.trycloudflare.com",
-    "api": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1",
-    "health": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/health",
-    "swagger": "https://spies-hometown-tractor-apparel.trycloudflare.com/docs",
-    "redoc": "https://spies-hometown-tractor-apparel.trycloudflare.com/redoc",
-    "openapi": "https://spies-hometown-tractor-apparel.trycloudflare.com/openapi.json",
-    "guide": "https://spies-hometown-tractor-apparel.trycloudflare.com/api-docs"
+    "panel": "https://shine-fresh-democracy-essex.trycloudflare.com",
+    "api": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1",
+    "health": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/health",
+    "swagger": "https://shine-fresh-democracy-essex.trycloudflare.com/docs",
+    "redoc": "https://shine-fresh-democracy-essex.trycloudflare.com/redoc",
+    "openapi": "https://shine-fresh-democracy-essex.trycloudflare.com/openapi.json",
+    "guide": "https://shine-fresh-democracy-essex.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/health"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/ready"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/info"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/models"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/config"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/stats"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/check"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/check"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/check/batch"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/verdict"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/score"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/sentences"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/censor"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/moderations"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/profanity"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/language"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/normalize"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/check"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/health"
+      "url": "https://shine-fresh-democracy-essex.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-16T14:49:11+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43889174732",
-  "run_number": 102,
+  "updated_at": "2026-11-16T19:40:35+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43941136142",
+  "run_number": 103,
   "commit": "0a79db0"
 }
