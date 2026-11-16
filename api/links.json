@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://lookup-depend-boulevard-estates.trycloudflare.com",
+  "base_url": "https://spies-hometown-tractor-apparel.trycloudflare.com",
   "links": {
-    "panel": "https://lookup-depend-boulevard-estates.trycloudflare.com",
-    "api": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1",
-    "health": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/health",
-    "swagger": "https://lookup-depend-boulevard-estates.trycloudflare.com/docs",
-    "redoc": "https://lookup-depend-boulevard-estates.trycloudflare.com/redoc",
-    "openapi": "https://lookup-depend-boulevard-estates.trycloudflare.com/openapi.json",
-    "guide": "https://lookup-depend-boulevard-estates.trycloudflare.com/api-docs"
+    "panel": "https://spies-hometown-tractor-apparel.trycloudflare.com",
+    "api": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1",
+    "health": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/health",
+    "swagger": "https://spies-hometown-tractor-apparel.trycloudflare.com/docs",
+    "redoc": "https://spies-hometown-tractor-apparel.trycloudflare.com/redoc",
+    "openapi": "https://spies-hometown-tractor-apparel.trycloudflare.com/openapi.json",
+    "guide": "https://spies-hometown-tractor-apparel.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/health"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/ready"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/info"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/models"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/config"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/stats"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/check"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/check"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/check/batch"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/verdict"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/score"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/sentences"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/censor"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/moderations"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/profanity"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/language"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/v1/normalize"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/api/check"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://lookup-depend-boulevard-estates.trycloudflare.com/health"
+      "url": "https://spies-hometown-tractor-apparel.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-16T09:58:25+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43844078509",
-  "run_number": 101,
+  "updated_at": "2026-11-16T14:49:11+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/43889174732",
+  "run_number": 102,
   "commit": "0a79db0"
 }
