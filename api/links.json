@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://item-slow-realm-eating.trycloudflare.com",
+  "base_url": "https://came-voip-recorded-beds.trycloudflare.com",
   "links": {
-    "panel": "https://item-slow-realm-eating.trycloudflare.com",
-    "api": "https://item-slow-realm-eating.trycloudflare.com/api/v1",
-    "health": "https://item-slow-realm-eating.trycloudflare.com/api/v1/health",
-    "swagger": "https://item-slow-realm-eating.trycloudflare.com/docs",
-    "redoc": "https://item-slow-realm-eating.trycloudflare.com/redoc",
-    "openapi": "https://item-slow-realm-eating.trycloudflare.com/openapi.json",
-    "guide": "https://item-slow-realm-eating.trycloudflare.com/api-docs"
+    "panel": "https://came-voip-recorded-beds.trycloudflare.com",
+    "api": "https://came-voip-recorded-beds.trycloudflare.com/api/v1",
+    "health": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/health",
+    "swagger": "https://came-voip-recorded-beds.trycloudflare.com/docs",
+    "redoc": "https://came-voip-recorded-beds.trycloudflare.com/redoc",
+    "openapi": "https://came-voip-recorded-beds.trycloudflare.com/openapi.json",
+    "guide": "https://came-voip-recorded-beds.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/health"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/ready"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/info"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/models"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/config"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/stats"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/check"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/check"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/check/batch"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/verdict"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/score"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/sentences"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/censor"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/moderations"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/profanity"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/language"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/normalize"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/api/check"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://item-slow-realm-eating.trycloudflare.com/health"
+      "url": "https://came-voip-recorded-beds.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-17T10:11:35+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44062063518",
-  "run_number": 106,
+  "updated_at": "2026-11-17T15:03:22+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44109058342",
+  "run_number": 107,
   "commit": "0a79db0"
 }
