@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://bell-search-collectables-shanghai.trycloudflare.com",
+  "base_url": "https://item-slow-realm-eating.trycloudflare.com",
   "links": {
-    "panel": "https://bell-search-collectables-shanghai.trycloudflare.com",
-    "api": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1",
-    "health": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/health",
-    "swagger": "https://bell-search-collectables-shanghai.trycloudflare.com/docs",
-    "redoc": "https://bell-search-collectables-shanghai.trycloudflare.com/redoc",
-    "openapi": "https://bell-search-collectables-shanghai.trycloudflare.com/openapi.json",
-    "guide": "https://bell-search-collectables-shanghai.trycloudflare.com/api-docs"
+    "panel": "https://item-slow-realm-eating.trycloudflare.com",
+    "api": "https://item-slow-realm-eating.trycloudflare.com/api/v1",
+    "health": "https://item-slow-realm-eating.trycloudflare.com/api/v1/health",
+    "swagger": "https://item-slow-realm-eating.trycloudflare.com/docs",
+    "redoc": "https://item-slow-realm-eating.trycloudflare.com/redoc",
+    "openapi": "https://item-slow-realm-eating.trycloudflare.com/openapi.json",
+    "guide": "https://item-slow-realm-eating.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/health"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/ready"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/info"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/models"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/config"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/stats"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/check"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/check"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/check/batch"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/verdict"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/score"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/sentences"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/censor"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/moderations"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/profanity"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/language"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/v1/normalize"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/api/check"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://bell-search-collectables-shanghai.trycloudflare.com/health"
+      "url": "https://item-slow-realm-eating.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-17T05:21:15+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44023135608",
-  "run_number": 105,
+  "updated_at": "2026-11-17T10:11:35+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44062063518",
+  "run_number": 106,
   "commit": "0a79db0"
 }
