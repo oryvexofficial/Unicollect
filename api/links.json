@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://deposits-regarded-bras-video.trycloudflare.com",
+  "base_url": "https://angels-step-gibraltar-purse.trycloudflare.com",
   "links": {
-    "panel": "https://deposits-regarded-bras-video.trycloudflare.com",
-    "api": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1",
-    "health": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/health",
-    "swagger": "https://deposits-regarded-bras-video.trycloudflare.com/docs",
-    "redoc": "https://deposits-regarded-bras-video.trycloudflare.com/redoc",
-    "openapi": "https://deposits-regarded-bras-video.trycloudflare.com/openapi.json",
-    "guide": "https://deposits-regarded-bras-video.trycloudflare.com/api-docs"
+    "panel": "https://angels-step-gibraltar-purse.trycloudflare.com",
+    "api": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1",
+    "health": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/health",
+    "swagger": "https://angels-step-gibraltar-purse.trycloudflare.com/docs",
+    "redoc": "https://angels-step-gibraltar-purse.trycloudflare.com/redoc",
+    "openapi": "https://angels-step-gibraltar-purse.trycloudflare.com/openapi.json",
+    "guide": "https://angels-step-gibraltar-purse.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/health"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/ready"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/info"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/models"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/config"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/stats"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/check"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/check"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/check/batch"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/verdict"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/score"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/sentences"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/censor"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/moderations"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/profanity"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/language"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/v1/normalize"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/api/check"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://deposits-regarded-bras-video.trycloudflare.com/health"
+      "url": "https://angels-step-gibraltar-purse.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-18T00:45:07+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44209684576",
-  "run_number": 109,
+  "updated_at": "2026-11-18T05:34:02+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44244785448",
+  "run_number": 110,
   "commit": "0a79db0"
 }
