@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://missed-broken-waves-left.trycloudflare.com",
+  "base_url": "https://consciousness-geometry-theme-together.trycloudflare.com",
   "links": {
-    "panel": "https://missed-broken-waves-left.trycloudflare.com",
-    "api": "https://missed-broken-waves-left.trycloudflare.com/api/v1",
-    "health": "https://missed-broken-waves-left.trycloudflare.com/api/v1/health",
-    "swagger": "https://missed-broken-waves-left.trycloudflare.com/docs",
-    "redoc": "https://missed-broken-waves-left.trycloudflare.com/redoc",
-    "openapi": "https://missed-broken-waves-left.trycloudflare.com/openapi.json",
-    "guide": "https://missed-broken-waves-left.trycloudflare.com/api-docs"
+    "panel": "https://consciousness-geometry-theme-together.trycloudflare.com",
+    "api": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1",
+    "health": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/health",
+    "swagger": "https://consciousness-geometry-theme-together.trycloudflare.com/docs",
+    "redoc": "https://consciousness-geometry-theme-together.trycloudflare.com/redoc",
+    "openapi": "https://consciousness-geometry-theme-together.trycloudflare.com/openapi.json",
+    "guide": "https://consciousness-geometry-theme-together.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/health"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/ready"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/info"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/models"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/config"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/stats"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/check"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/check"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/check/batch"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/verdict"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/score"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/sentences"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/censor"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/moderations"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/profanity"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/language"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/v1/normalize"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/api/check"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://missed-broken-waves-left.trycloudflare.com/health"
+      "url": "https://consciousness-geometry-theme-together.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-18T10:25:01+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44284687427",
-  "run_number": 111,
+  "updated_at": "2026-11-18T15:15:04+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44332901962",
+  "run_number": 112,
   "commit": "0a79db0"
 }
