@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://maybe-peer-confident-nirvana.trycloudflare.com",
+  "base_url": "https://loved-finances-manner-licensing.trycloudflare.com",
   "links": {
-    "panel": "https://maybe-peer-confident-nirvana.trycloudflare.com",
-    "api": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1",
-    "health": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/health",
-    "swagger": "https://maybe-peer-confident-nirvana.trycloudflare.com/docs",
-    "redoc": "https://maybe-peer-confident-nirvana.trycloudflare.com/redoc",
-    "openapi": "https://maybe-peer-confident-nirvana.trycloudflare.com/openapi.json",
-    "guide": "https://maybe-peer-confident-nirvana.trycloudflare.com/api-docs"
+    "panel": "https://loved-finances-manner-licensing.trycloudflare.com",
+    "api": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1",
+    "health": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/health",
+    "swagger": "https://loved-finances-manner-licensing.trycloudflare.com/docs",
+    "redoc": "https://loved-finances-manner-licensing.trycloudflare.com/redoc",
+    "openapi": "https://loved-finances-manner-licensing.trycloudflare.com/openapi.json",
+    "guide": "https://loved-finances-manner-licensing.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/health"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/ready"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/info"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/models"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/config"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/stats"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/check"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/check"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/check/batch"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/verdict"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/score"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/sentences"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/censor"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/moderations"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/profanity"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/language"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/v1/normalize"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/api/check"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://maybe-peer-confident-nirvana.trycloudflare.com/health"
+      "url": "https://loved-finances-manner-licensing.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-19T00:56:43+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44432652001",
-  "run_number": 114,
+  "updated_at": "2026-11-19T05:47:53+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44467238832",
+  "run_number": 115,
   "commit": "0a79db0"
 }
