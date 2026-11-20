@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://throughout-county-inherited-apache.trycloudflare.com",
+  "base_url": "https://throw-acdbentity-investigator-weed.trycloudflare.com",
   "links": {
-    "panel": "https://throughout-county-inherited-apache.trycloudflare.com",
-    "api": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1",
-    "health": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/health",
-    "swagger": "https://throughout-county-inherited-apache.trycloudflare.com/docs",
-    "redoc": "https://throughout-county-inherited-apache.trycloudflare.com/redoc",
-    "openapi": "https://throughout-county-inherited-apache.trycloudflare.com/openapi.json",
-    "guide": "https://throughout-county-inherited-apache.trycloudflare.com/api-docs"
+    "panel": "https://throw-acdbentity-investigator-weed.trycloudflare.com",
+    "api": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1",
+    "health": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/health",
+    "swagger": "https://throw-acdbentity-investigator-weed.trycloudflare.com/docs",
+    "redoc": "https://throw-acdbentity-investigator-weed.trycloudflare.com/redoc",
+    "openapi": "https://throw-acdbentity-investigator-weed.trycloudflare.com/openapi.json",
+    "guide": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/health"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/ready"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/info"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/models"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/config"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/stats"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/check"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/check"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/check/batch"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/verdict"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/score"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/sentences"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/censor"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/moderations"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/profanity"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/language"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/v1/normalize"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/api/check"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://throughout-county-inherited-apache.trycloudflare.com/health"
+      "url": "https://throw-acdbentity-investigator-weed.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-19T20:19:47+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44606927009",
-  "run_number": 118,
+  "updated_at": "2026-11-20T01:10:31+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44651111442",
+  "run_number": 119,
   "commit": "0a79db0"
 }
