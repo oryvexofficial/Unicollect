@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://update-must-ltd-iron.trycloudflare.com",
+  "base_url": "https://cult-map-outlets-semester.trycloudflare.com",
   "links": {
-    "panel": "https://update-must-ltd-iron.trycloudflare.com",
-    "api": "https://update-must-ltd-iron.trycloudflare.com/api/v1",
-    "health": "https://update-must-ltd-iron.trycloudflare.com/api/v1/health",
-    "swagger": "https://update-must-ltd-iron.trycloudflare.com/docs",
-    "redoc": "https://update-must-ltd-iron.trycloudflare.com/redoc",
-    "openapi": "https://update-must-ltd-iron.trycloudflare.com/openapi.json",
-    "guide": "https://update-must-ltd-iron.trycloudflare.com/api-docs"
+    "panel": "https://cult-map-outlets-semester.trycloudflare.com",
+    "api": "https://cult-map-outlets-semester.trycloudflare.com/api/v1",
+    "health": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/health",
+    "swagger": "https://cult-map-outlets-semester.trycloudflare.com/docs",
+    "redoc": "https://cult-map-outlets-semester.trycloudflare.com/redoc",
+    "openapi": "https://cult-map-outlets-semester.trycloudflare.com/openapi.json",
+    "guide": "https://cult-map-outlets-semester.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/health"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/ready"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/info"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/models"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/config"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/stats"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/check"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/check"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/check/batch"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/verdict"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/score"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/sentences"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/censor"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/moderations"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/profanity"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/language"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/v1/normalize"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/api/check"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://update-must-ltd-iron.trycloudflare.com/health"
+      "url": "https://cult-map-outlets-semester.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-20T06:00:47+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44684456619",
-  "run_number": 120,
+  "updated_at": "2026-11-20T10:50:57+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44722322846",
+  "run_number": 121,
   "commit": "0a79db0"
 }
