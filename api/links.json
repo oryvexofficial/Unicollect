@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://chi-provide-judicial-customize.trycloudflare.com",
+  "base_url": "https://write-delete-warm-stakeholders.trycloudflare.com",
   "links": {
-    "panel": "https://chi-provide-judicial-customize.trycloudflare.com",
-    "api": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1",
-    "health": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/health",
-    "swagger": "https://chi-provide-judicial-customize.trycloudflare.com/docs",
-    "redoc": "https://chi-provide-judicial-customize.trycloudflare.com/redoc",
-    "openapi": "https://chi-provide-judicial-customize.trycloudflare.com/openapi.json",
-    "guide": "https://chi-provide-judicial-customize.trycloudflare.com/api-docs"
+    "panel": "https://write-delete-warm-stakeholders.trycloudflare.com",
+    "api": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1",
+    "health": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/health",
+    "swagger": "https://write-delete-warm-stakeholders.trycloudflare.com/docs",
+    "redoc": "https://write-delete-warm-stakeholders.trycloudflare.com/redoc",
+    "openapi": "https://write-delete-warm-stakeholders.trycloudflare.com/openapi.json",
+    "guide": "https://write-delete-warm-stakeholders.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/health"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/ready"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/info"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/models"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/config"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/stats"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/check"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/check"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/check/batch"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/verdict"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/score"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/sentences"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/censor"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/moderations"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/profanity"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/language"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/v1/normalize"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/api/check"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://chi-provide-judicial-customize.trycloudflare.com/health"
+      "url": "https://write-delete-warm-stakeholders.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-20T15:42:16+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44765417524",
-  "run_number": 122,
+  "updated_at": "2026-11-20T20:33:16+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44811904991",
+  "run_number": 123,
   "commit": "0a79db0"
 }
