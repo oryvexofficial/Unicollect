@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://switches-announcements-ons-analog.trycloudflare.com",
+  "base_url": "https://shield-realty-unknown-cite.trycloudflare.com",
   "links": {
-    "panel": "https://switches-announcements-ons-analog.trycloudflare.com",
-    "api": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1",
-    "health": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/health",
-    "swagger": "https://switches-announcements-ons-analog.trycloudflare.com/docs",
-    "redoc": "https://switches-announcements-ons-analog.trycloudflare.com/redoc",
-    "openapi": "https://switches-announcements-ons-analog.trycloudflare.com/openapi.json",
-    "guide": "https://switches-announcements-ons-analog.trycloudflare.com/api-docs"
+    "panel": "https://shield-realty-unknown-cite.trycloudflare.com",
+    "api": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1",
+    "health": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/health",
+    "swagger": "https://shield-realty-unknown-cite.trycloudflare.com/docs",
+    "redoc": "https://shield-realty-unknown-cite.trycloudflare.com/redoc",
+    "openapi": "https://shield-realty-unknown-cite.trycloudflare.com/openapi.json",
+    "guide": "https://shield-realty-unknown-cite.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/health"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/ready"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/info"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/models"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/config"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/stats"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/check"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/check"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/check/batch"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/verdict"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/score"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/sentences"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/censor"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/moderations"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/profanity"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/language"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/v1/normalize"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/api/check"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://switches-announcements-ons-analog.trycloudflare.com/health"
+      "url": "https://shield-realty-unknown-cite.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-21T01:23:58+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44849647417",
-  "run_number": 124,
+  "updated_at": "2026-11-21T06:16:44+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44874344000",
+  "run_number": 125,
   "commit": "0a79db0"
 }
