@@ -2,130 +2,130 @@
   "service": "unicollect-guard",
   "status": "online",
   "online": true,
-  "base_url": "https://shield-realty-unknown-cite.trycloudflare.com",
+  "base_url": "https://humanitarian-asking-control-java.trycloudflare.com",
   "links": {
-    "panel": "https://shield-realty-unknown-cite.trycloudflare.com",
-    "api": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1",
-    "health": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/health",
-    "swagger": "https://shield-realty-unknown-cite.trycloudflare.com/docs",
-    "redoc": "https://shield-realty-unknown-cite.trycloudflare.com/redoc",
-    "openapi": "https://shield-realty-unknown-cite.trycloudflare.com/openapi.json",
-    "guide": "https://shield-realty-unknown-cite.trycloudflare.com/api-docs"
+    "panel": "https://humanitarian-asking-control-java.trycloudflare.com",
+    "api": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1",
+    "health": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/health",
+    "swagger": "https://humanitarian-asking-control-java.trycloudflare.com/docs",
+    "redoc": "https://humanitarian-asking-control-java.trycloudflare.com/redoc",
+    "openapi": "https://humanitarian-asking-control-java.trycloudflare.com/openapi.json",
+    "guide": "https://humanitarian-asking-control-java.trycloudflare.com/api-docs"
   },
   "endpoints": [
     {
       "method": "GET",
       "path": "/api/v1",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1"
     },
     {
       "method": "GET",
       "path": "/api/v1/health",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/health"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/health"
     },
     {
       "method": "GET",
       "path": "/api/v1/ready",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/ready"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/ready"
     },
     {
       "method": "GET",
       "path": "/api/v1/info",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/info"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/info"
     },
     {
       "method": "GET",
       "path": "/api/v1/models",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/models"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/models"
     },
     {
       "method": "GET",
       "path": "/api/v1/config",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/config"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/config"
     },
     {
       "method": "GET",
       "path": "/api/v1/stats",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/stats"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/stats"
     },
     {
       "method": "GET",
       "path": "/api/v1/check",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/check"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/check"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/check"
     },
     {
       "method": "POST",
       "path": "/api/v1/check/batch",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/check/batch"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/check/batch"
     },
     {
       "method": "POST",
       "path": "/api/v1/verdict",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/verdict"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/verdict"
     },
     {
       "method": "POST",
       "path": "/api/v1/score",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/score"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/score"
     },
     {
       "method": "POST",
       "path": "/api/v1/sentences",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/sentences"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/sentences"
     },
     {
       "method": "POST",
       "path": "/api/v1/censor",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/censor"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/censor"
     },
     {
       "method": "POST",
       "path": "/api/v1/moderations",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/moderations"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/moderations"
     },
     {
       "method": "POST",
       "path": "/api/v1/profanity",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/profanity"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/profanity"
     },
     {
       "method": "POST",
       "path": "/api/v1/language",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/language"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/language"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/detect",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/fingilish/detect"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/fingilish/detect"
     },
     {
       "method": "POST",
       "path": "/api/v1/fingilish/transliterate",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/fingilish/transliterate"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/fingilish/transliterate"
     },
     {
       "method": "POST",
       "path": "/api/v1/normalize",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/v1/normalize"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/v1/normalize"
     },
     {
       "method": "POST",
       "path": "/api/check",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/api/check"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/api/check"
     },
     {
       "method": "GET",
       "path": "/health",
-      "url": "https://shield-realty-unknown-cite.trycloudflare.com/health"
+      "url": "https://humanitarian-asking-control-java.trycloudflare.com/health"
     }
   ],
-  "updated_at": "2026-11-21T06:16:44+00:00",
-  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44874344000",
-  "run_number": 125,
+  "updated_at": "2026-11-21T11:04:49+00:00",
+  "run_url": "https://github.com/oryvexofficial/Unicollect/actions/runs/44897145225",
+  "run_number": 126,
   "commit": "0a79db0"
 }
